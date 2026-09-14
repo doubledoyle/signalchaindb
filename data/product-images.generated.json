@@ -1,0 +1,787 @@
+{
+  "boss-dd-500": {
+    "image_url": "https://static.roland.com/assets/images/products/gallery/dd_500_top_gal.jpg",
+    "image_source": "https://www.boss.info/us/products/dd-500/",
+    "image_credit": "BOSS"
+  },
+  "ev-30": {
+    "image_url": "https://static.roland.com/assets/images/products/gallery/ev-30_D_gal.jpg",
+    "image_source": "https://www.boss.info/us/products/ev-30/",
+    "image_credit": "BOSS"
+  },
+  "boss-ev-5": {
+    "image_url": "https://static.roland.com/assets/images/products/gallery/ev-5_angle_gal.jpg",
+    "image_source": "https://www.boss.info/us/products/ev-5/",
+    "image_credit": "BOSS"
+  },
+  "boss-fs-5u": {
+    "image_url": "https://static.roland.com/assets/images/products/gallery/fs-5u_angle_gal.jpg",
+    "image_source": "https://www.boss.info/us/products/fs-5u_5l/",
+    "image_credit": "BOSS"
+  },
+  "boss-fs-6": {
+    "image_url": "https://static.roland.com/assets/images/products/gallery/fs_6_top_gal.jpg",
+    "image_source": "https://www.boss.info/us/products/fs-6/",
+    "image_credit": "BOSS"
+  },
+  "fs-7": {
+    "image_url": "https://static.roland.com/assets/images/products/gallery/fs-7_angle_gal.jpg",
+    "image_source": "https://www.boss.info/us/products/fs-7/",
+    "image_credit": "BOSS"
+  },
+  "boss-fv-500h": {
+    "image_url": "https://static.roland.com/assets/images/products/gallery/fv_500h_gal.jpg",
+    "image_source": "https://www.boss.info/us/products/fv-500h_500l/",
+    "image_credit": "BOSS"
+  },
+  "boss-fv-500l": {
+    "image_url": "https://static.roland.com/assets/images/products/gallery/fv_500l_gal.jpg",
+    "image_source": "https://www.boss.info/us/products/fv-500h_500l/",
+    "image_credit": "BOSS"
+  },
+  "boss-gt-1000": {
+    "image_url": "https://static.roland.com/products/gt-1000/images/gt-1000_image_movie.jpg",
+    "image_source": "https://www.boss.info/us/products/gt-1000/",
+    "image_credit": "BOSS"
+  },
+  "gt-1000core": {
+    "image_url": "https://static.roland.com/products/gt-1000core/images/gt-1000core_img_movie.jpg",
+    "image_source": "https://www.boss.info/us/products/gt-1000core/",
+    "image_credit": "BOSS"
+  },
+  "boss-gx-1": {
+    "image_url": "https://static.roland.com/assets/promos/jpg/billboard_gx-1.jpg",
+    "image_source": "https://www.boss.info/us/",
+    "image_credit": "BOSS"
+  },
+  "gx-10": {
+    "image_url": "https://static.roland.com/products/gx-10/image/gx-10_hero.jpg",
+    "image_source": "https://www.boss.info/us/products/gx-10/",
+    "image_credit": "BOSS"
+  },
+  "boss-gx-100": {
+    "image_url": "https://static.roland.com/products/gx-100/images/gx-100_img_movie.jpg",
+    "image_source": "https://www.boss.info/us/products/gx-100/",
+    "image_credit": "BOSS"
+  },
+  "boss-gx-1b": {
+    "image_url": "https://static.roland.com/assets/promos/jpg/billboard_gx-1b.jpg",
+    "image_source": "https://www.boss.info/us/",
+    "image_credit": "BOSS"
+  },
+  "boss-ir-2": {
+    "image_url": "https://static.roland.com/products/ir-2/image/ir-2_hero.jpg",
+    "image_source": "https://www.boss.info/us/products/ir-2/",
+    "image_credit": "BOSS"
+  },
+  "boss-ir-200": {
+    "image_url": "https://static.roland.com/products/ir-200/images/ir-200_img_movie.jpg",
+    "image_source": "https://www.boss.info/us/products/ir-200/",
+    "image_credit": "BOSS"
+  },
+  "boss-md-500": {
+    "image_url": "https://static.roland.com/assets/images/products/gallery/md-500_top_gal.jpg",
+    "image_source": "https://www.boss.info/us/products/md-500/",
+    "image_credit": "BOSS"
+  },
+  "boss-me-90": {
+    "image_url": "https://static.roland.com/products/me-90/image/me-90_image_movie.jpg",
+    "image_source": "https://www.boss.info/us/products/me-90/",
+    "image_credit": "BOSS"
+  },
+  "boss-me-90b": {
+    "image_url": "https://static.roland.com/products/me-90b/image/me-90b_hero.jpg",
+    "image_source": "https://www.boss.info/us/products/me-90b/",
+    "image_credit": "BOSS"
+  },
+  "boss-rc-5": {
+    "image_url": "https://static.roland.com/products/rc-5/images/rc-5_img_movie.jpg",
+    "image_source": "https://www.boss.info/us/products/rc-5/",
+    "image_credit": "BOSS"
+  },
+  "boss-rc-500": {
+    "image_url": "https://static.roland.com/products/rc-500/images/rc-500_img_movie.jpg",
+    "image_source": "https://www.boss.info/us/products/rc-500/",
+    "image_credit": "BOSS"
+  },
+  "boss-rv-500": {
+    "image_url": "https://static.roland.com/assets/images/products/gallery/rv-500_top_gal.jpg",
+    "image_source": "https://www.boss.info/us/products/rv-500/",
+    "image_credit": "BOSS"
+  },
+  "cioks-ac10": {
+    "image_url": "https://cioks.com/media/kkjey2qx/ac10.png?width=1200&amp;height=600&amp;rnd=133243951592030000",
+    "image_source": "https://cioks.com/power-supplies/",
+    "image_credit": "CIOKS"
+  },
+  "ciokolate": {
+    "image_url": "https://cioks.com/media/01fbkfvw/cioks-dc7v2-front_wo-plug.png?width=1200&amp;height=600&amp;rnd=134267767987900000",
+    "image_source": "https://cioks.com/power-supplies/",
+    "image_credit": "CIOKS"
+  },
+  "cioks-4-expander": {
+    "image_url": "https://cioks.com/media/01fbkfvw/cioks-dc7v2-front_wo-plug.png?width=1200&amp;height=600&amp;rnd=134267767987900000",
+    "image_source": "https://cioks.com/power-supplies/",
+    "image_credit": "CIOKS"
+  },
+  "cioks-8-expander": {
+    "image_url": "https://cioks.com/media/01fbkfvw/cioks-dc7v2-front_wo-plug.png?width=1200&amp;height=600&amp;rnd=134267767987900000",
+    "image_source": "https://cioks.com/power-supplies/future-power-generation/cioks-8-expander/",
+    "image_credit": "CIOKS"
+  },
+  "cioks-crux": {
+    "image_url": "https://cioks.com/media/01fbkfvw/cioks-dc7v2-front_wo-plug.png?width=1200&amp;height=600&amp;rnd=134267767987900000",
+    "image_source": "https://cioks.com/power-supplies/future-power-generation/cioks-crux/",
+    "image_credit": "CIOKS"
+  },
+  "cioks-dc10": {
+    "image_url": "https://cioks.com/media/ed2ff2pd/dc10.png?width=1200&amp;height=600&amp;rnd=133243951610800000",
+    "image_source": "https://cioks.com/power-supplies/",
+    "image_credit": "CIOKS"
+  },
+  "cioks-dc7": {
+    "image_url": "https://cioks.com/media/01fbkfvw/cioks-dc7v2-front_wo-plug.png?width=1200&amp;height=600&amp;rnd=134267767987900000",
+    "image_source": "https://cioks.com/power-supplies/future-power-generation/cioks-dc7-v2/",
+    "image_credit": "CIOKS"
+  },
+  "cioks-sol": {
+    "image_url": "https://cioks.com/media/inmg1vxy/sol.png?width=1200&amp;height=600&amp;rnd=133243951615030000",
+    "image_source": "https://cioks.com/power-supplies/future-power-generation/cioks-sol/",
+    "image_credit": "CIOKS"
+  },
+  "blackhole-pedal": {
+    "image_url": "https://cdn.eventideaudio.com/uploads/2020/08/blackhole_pedal_product_banner-scaled.jpg",
+    "image_source": "https://www.eventideaudio.com/pedals/blackhole/",
+    "image_credit": "Eventide"
+  },
+  "h9-gen2": {
+    "image_url": "https://cdn.eventideaudio.com/uploads/2025/10/H9-Gen-2-Top-Front-Profile.png",
+    "image_source": "https://www.eventideaudio.com/pedals/h9-harmonizer-gen-2/",
+    "image_credit": "Eventide"
+  },
+  "h9-max": {
+    "image_url": "https://cdn.eventideaudio.com/uploads/2013/06/h9_product_banner-copy-scaled.jpg",
+    "image_source": "https://www.eventideaudio.com/pedals/h9-max/",
+    "image_credit": "Eventide"
+  },
+  "h90": {
+    "image_url": "https://cdn.eventideaudio.com/uploads/2025/07/crop-116-66-2327-1309-0-H90-HarmonizerVSM-QVOX-Lifestyle-1-scaled-1.jpg",
+    "image_source": "https://www.eventideaudio.com/pedals/h90/",
+    "image_credit": "Eventide"
+  },
+  "knife-drop": {
+    "image_url": "https://cdn.eventideaudio.com/uploads/2024/10/Knife-Drop-SQ-1.jpg",
+    "image_source": "https://www.eventideaudio.com/pedals/knife-drop/",
+    "image_credit": "Eventide"
+  },
+  "modfactor": {
+    "image_url": "https://cdn.eventideaudio.com/uploads/2008/06/ModFactor-ProductFeature.jpg",
+    "image_source": "https://www.eventideaudio.com/pedals/modfactor/",
+    "image_credit": "Eventide"
+  },
+  "eventide-oxu": {
+    "image_url": "https://cdn.eventideaudio.com/uploads/2021/09/eventide_pedalboard-scaled.jpg",
+    "image_source": "https://www.eventideaudio.com/pedals/",
+    "image_credit": "Eventide"
+  },
+  "pitchfactor": {
+    "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/PitchFactor-Feature-2800x1575-1-scaled-2.jpg",
+    "image_source": "https://www.eventideaudio.com/pedals/pitchfactor/",
+    "image_credit": "Eventide"
+  },
+  "eventide-powermax": {
+    "image_url": "https://cdn.eventideaudio.com/uploads/2020/07/PowerMaxII-Front-768x512.png",
+    "image_source": "https://www.eventideaudio.com/pedals/",
+    "image_credit": "Eventide"
+  },
+  "eventide-powermini": {
+    "image_url": "https://cdn.eventideaudio.com/uploads/2020/07/Power-mini-front-e1627339171823-768x564.png",
+    "image_source": "https://www.eventideaudio.com/pedals/",
+    "image_credit": "Eventide"
+  },
+  "riptide": {
+    "image_url": "https://cdn.eventideaudio.com/uploads/2023/10/Riptide-Waves-wide2-scaled.jpg",
+    "image_source": "https://www.eventideaudio.com/pedals/riptide/",
+    "image_credit": "Eventide"
+  },
+  "eventide-rose": {
+    "image_url": "https://cdn.eventideaudio.com/uploads/2019/01/Rose-Low.png",
+    "image_source": "https://www.eventideaudio.com/pedals/rose/",
+    "image_credit": "Eventide"
+  },
+  "eventide-space": {
+    "image_url": "https://cdn.eventideaudio.com/uploads/2010/06/Space_product_banner-scaled.jpg",
+    "image_source": "https://www.eventideaudio.com/pedals/space/",
+    "image_credit": "Eventide"
+  },
+  "eventide-tesla": {
+    "image_url": "https://cdn.eventideaudio.com/uploads/2021/09/eventide_pedalboard-scaled.jpg",
+    "image_source": "https://www.eventideaudio.com/pedals/",
+    "image_credit": "Eventide"
+  },
+  "timefactor": {
+    "image_url": "https://cdn.eventideaudio.com/uploads/2008/06/TimeFactor_product_banner-scaled.jpg",
+    "image_source": "https://www.eventideaudio.com/pedals/timefactor/",
+    "image_credit": "Eventide"
+  },
+  "tricerachorus": {
+    "image_url": "https://cdn.eventideaudio.com/uploads/2023/08/tricerachorus_product_banner-scaled-2.jpg",
+    "image_source": "https://www.eventideaudio.com/pedals/tricerachorus/",
+    "image_credit": "Eventide"
+  },
+  "ultratap": {
+    "image_url": "https://cdn.eventideaudio.com/uploads/2021/03/ultratap_pedal_product_banner-scaled.jpg",
+    "image_source": "https://www.eventideaudio.com/pedals/ultratap/",
+    "image_credit": "Eventide"
+  },
+  "fm3-mk2-turbo": {
+    "image_url": "https://www.fractalaudio.com/wp-content/uploads/2023/07/FM3-Mk-II-Turbo-Front-1024.webp",
+    "image_source": "https://www.fractalaudio.com/fm3/",
+    "image_credit": "Fractal Audio"
+  },
+  "tonex-one": {
+    "image_url": "https://g1.ikmultimedia.com/html/web_pages/products/tonexone/images/1.0/tonex_one_interactive_20250227.jpg",
+    "image_source": "https://www.ikmultimedia.com/products/tonexone/",
+    "image_credit": "IK Multimedia"
+  },
+  "tonex-pedal": {
+    "image_url": "https://www.ikmultimedia.com/products/tonexpedal/images/1.0/tonex_pedal_front.jpg",
+    "image_source": "https://www.ikmultimedia.com/products/tonexpedal/",
+    "image_credit": "IK Multimedia"
+  },
+  "line6-ex2": {
+    "image_url": "https://l6c-acdn2.line6.net/data/6/0a000f6500556a6c550775b8b/image/jpeg/r17673_file.jpeg",
+    "image_source": "https://line6.com/helix-stadium/",
+    "image_credit": "Line 6"
+  },
+  "expand-d10": {
+    "image_url": "https://line6.com/data/6/0a000f6f00926a7ab153642f5/image/jpeg",
+    "image_source": "https://line6.com/helix-stadium/",
+    "image_credit": "Line 6"
+  },
+  "helix-stadium-floor": {
+    "image_url": "https://line6.com/data/6/0a000f6f00926a7ab153642f5/image/jpeg",
+    "image_source": "https://line6.com/helix-stadium/",
+    "image_credit": "Line 6"
+  },
+  "helix-stadium-xl-floor": {
+    "image_url": "https://line6.com/data/6/0a000f6f00926a7ab153642f5/image/jpeg",
+    "image_source": "https://line6.com/helix-stadium/",
+    "image_credit": "Line 6"
+  },
+  "pod-express-bass": {
+    "image_url": "https://l6c-acdn2.line6.net/data/6/0a000b1e005167c64e1279462/image/jpeg/file.jpeg",
+    "image_source": "https://line6.com/podexpress/bass-effects/",
+    "image_credit": "Line 6"
+  },
+  "pod-express-black": {
+    "image_url": "https://l6c-acdn2.line6.net/data/6/0a000519d3e366faf67ebd4c5/image/gif/r17673_file.gif",
+    "image_source": "https://line6.com/",
+    "image_credit": "Line 6"
+  },
+  "pod-express-guitar": {
+    "image_url": "https://l6c-acdn2.line6.net/data/6/0a000b03005267c651f0a77a4/image/jpeg/file.jpeg",
+    "image_source": "https://line6.com/podexpress/guitar-effects/",
+    "image_credit": "Line 6"
+  },
+  "powercab-112-plus": {
+    "image_url": "https://l6c-acdn2.line6.net/data/6/0a0004a1023869b4ea8cd11aa/image/jpeg/r17673_file.jpeg",
+    "image_source": "https://line6.com/powercab/",
+    "image_credit": "Line 6"
+  },
+  "powercab-212-plus": {
+    "image_url": "https://l6c-acdn2.line6.net/data/6/0a0004a1023869b4ea8cd11aa/image/jpeg/r17673_file.jpeg",
+    "image_source": "https://line6.com/powercab/",
+    "image_credit": "Line 6"
+  },
+  "powercab-cl-112": {
+    "image_url": "https://line6.com/data/6/0a00040a04a26871c0ad5bf00/image/jpeg",
+    "image_source": "https://line6.com/powercab/",
+    "image_credit": "Line 6"
+  },
+  "powercab-cl-212": {
+    "image_url": "https://l6c-acdn2.line6.net/data/6/0a0004a1023869b4ea8e31f33/image/jpeg/r17673_file.jpeg",
+    "image_source": "https://line6.com/powercab/",
+    "image_credit": "Line 6"
+  },
+  "sp1-l6h": {
+    "image_url": "https://l.cdn-fileserver.com/bping.php?prid=8PR11258V&crid=458144546&sc=VA&wshp=0&vgd_cage=66&vgd_cdv=O3435&vgd_oreqf=one&vgd_oresf=one&vi=1789421917757756657&lf=6&requrl=https%3A%2F%2Fmissionengineering.com%2Fshop%2Fsp1-l6h%2F&r=1789421917977&vgd_l2type=dmola&vgd_wlstp=0&lper=100&vgd_rpth=%2Fola&mspa=1&vgd_tsce=L1352&vgd_setup=c21&ssld=%7B%22QQNN%22%3A%22Pb%22%2C%22QQN75%22%3A%22Gm5O7mz%22%2C%22QQ8E%22%3A%22%22%2C%22QQQN%22%3A%22%2FK%22%2C%22QQl8E%22%3A%22%22%7D&vgd_asn=8075&cid=8CUHL418T&hvsid=00001789421917972003461135368139&ugd=0&cc=US&wsip=170764067&gdpr=0&vgd_len=587&vgd_end=1",
+    "image_source": "https://missionengineering.com/shop/sp1-l6h/",
+    "image_credit": "Mission Engineering"
+  },
+  "mc3": {
+    "image_url": "https://static.wixstatic.com/media/a21442_e5b8aff286bb46a6824631595de26a3a~mv2.jpg/v1/fill/w_484,h_272,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/DSC03549_edited.jpg",
+    "image_source": "https://www.morningstar.io/mc3",
+    "image_credit": "Morningstar Engineering"
+  },
+  "mc4-pro": {
+    "image_url": "https://d2j6dbq0eux0bg.cloudfront.net/images/10246158/products/791002030/5561548253.jpg",
+    "image_source": "https://shop.morningstar.io/products",
+    "image_credit": "Morningstar Engineering"
+  },
+  "mc6": {
+    "image_url": "https://d2j6dbq0eux0bg.cloudfront.net/images/10246158/products/531932004/5342056497.jpg",
+    "image_source": "https://shop.morningstar.io/products/MIDI-Controllers-c143030503",
+    "image_credit": "Morningstar Engineering"
+  },
+  "mc6-pro": {
+    "image_url": "https://static.wixstatic.com/media/a21442_135b9643316745be9f7c6d83bd12469b~mv2.jpg/v1/fill/w_2500,h_2500,al_c/a21442_135b9643316745be9f7c6d83bd12469b~mv2.jpg",
+    "image_source": "https://www.morningstar.io/mc6-pro",
+    "image_credit": "Morningstar Engineering"
+  },
+  "mc8": {
+    "image_url": "https://static.wixstatic.com/media/a21442_d4fc75c0a1bc4f2fb280d364831d1516~mv2.jpg/v1/fill/w_147,h_98,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a21442_d4fc75c0a1bc4f2fb280d364831d1516~mv2.jpg",
+    "image_source": "https://www.morningstar.io/mc8-midi-controller",
+    "image_credit": "Morningstar Engineering"
+  },
+  "mc8-pro": {
+    "image_url": "https://d2j6dbq0eux0bg.cloudfront.net/images/10246158/products/751377518/4929196948.webp",
+    "image_source": "https://shop.morningstar.io/products/MC8-PRO-p751377518",
+    "image_credit": "Morningstar Engineering"
+  },
+  "ml10x": {
+    "image_url": "https://static.wixstatic.com/media/a21442_eaeed2bf24a94e018ce60f19c984b576~mv2.webp/v1/fill/w_147,h_98,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a21442_eaeed2bf24a94e018ce60f19c984b576~mv2.webp",
+    "image_source": "https://www.morningstar.io/ml10x",
+    "image_credit": "Morningstar Engineering"
+  },
+  "ml5": {
+    "image_url": "https://static.wixstatic.com/media/a21442_4d20e08f39754c90bdcd14a094533df6~mv2.jpg/v1/fill/w_147,h_90,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a21442_4d20e08f39754c90bdcd14a094533df6~mv2.jpg",
+    "image_source": "https://www.morningstar.io/ml5",
+    "image_credit": "Morningstar Engineering"
+  },
+  "nano-cortex": {
+    "image_url": "https://neuraldsp.com/_next/static/media/nc-controls.81433233.webp",
+    "image_source": "https://neuraldsp.com/nano-cortex",
+    "image_credit": "Neural DSP"
+  },
+  "quad-cortex": {
+    "image_url": "https://images.ctfassets.net/8puu65w27ud0/69PhWntPs5GVeeruRPGpl0/b73f4550d03cf7e5f1f7a9c0e59b3820/og-img-quad-cortex.png",
+    "image_source": "https://neuraldsp.com/quad-cortex",
+    "image_credit": "Neural DSP"
+  },
+  "quad-cortex-mini": {
+    "image_url": "https://neuraldsp.com/_next/static/media/qc-mini-io_1440.424454b7.webp",
+    "image_source": "https://neuraldsp.com/quad-cortex-mini",
+    "image_credit": "Neural DSP"
+  },
+  "pedaltrain-classic-1": {
+    "image_url": "https://pedaltrain.com/cdn/shop/products/PedaltrainClassic1SoftCaseComposite_1200x1200.png?v=1666897826",
+    "image_source": "https://pedaltrain.com/products/pt-cl1-sc",
+    "image_credit": "Pedaltrain"
+  },
+  "pedaltrain-classic-2": {
+    "image_url": "https://pedaltrain.com/cdn/shop/products/PedaltrainClassic2TourCaseComposite_1200x1200.png?v=1666898716",
+    "image_source": "https://pedaltrain.com/collections/shop-classic-series/products/pt-cl2-tc",
+    "image_credit": "Pedaltrain"
+  },
+  "pedaltrain-classic-3": {
+    "image_url": "https://pedaltrain.com/cdn/shop/products/PedaltrainClassic3SoftCaseComposite_600x600.png?v=1666899380",
+    "image_source": "https://pedaltrain.com/",
+    "image_credit": "Pedaltrain"
+  },
+  "pedaltrain-classic-jr": {
+    "image_url": "https://pedaltrain.com/cdn/shop/products/PedaltrainClassicJRSCComposite_600x600.png?v=1666812002",
+    "image_source": "https://pedaltrain.com/",
+    "image_credit": "Pedaltrain"
+  },
+  "pedaltrain-classic-pro": {
+    "image_url": "https://pedaltrain.com/cdn/shop/products/pt-vdl-mk-voodoo-lab-mounting-kit-for-novo-classic-and-terra-series-accessories-pt-vdl-mk-pedaltrain_600x338.jpg?v=1563466002",
+    "image_source": "https://pedaltrain.com/",
+    "image_credit": "Pedaltrain"
+  },
+  "pedaltrain-jr-max": {
+    "image_url": "https://pedaltrain.com/cdn/shop/products/PedaltrainJrMaxSoftCaseComposite_600x600.png?v=1666900531",
+    "image_source": "https://pedaltrain.com/",
+    "image_credit": "Pedaltrain"
+  },
+  "pedaltrain-metro-16": {
+    "image_url": "https://pedaltrain.com/cdn/shop/products/PedaltrainMetro16SoftCaseComposite_1024x1024.png?v=1666895888",
+    "image_source": "https://pedaltrain.com/products/pt-m16-sc",
+    "image_credit": "Pedaltrain"
+  },
+  "pedaltrain-metro-20": {
+    "image_url": "https://pedaltrain.com/cdn/shop/products/PedaltrainMetro20SoftCaseComposite_600x600.png?v=1666896164",
+    "image_source": "https://pedaltrain.com/",
+    "image_credit": "Pedaltrain"
+  },
+  "pedaltrain-metro-24": {
+    "image_url": "https://pedaltrain.com/cdn/shop/products/PedaltrainMetro24SoftCaseComposite_600x600.png?v=1666896642",
+    "image_source": "https://pedaltrain.com/",
+    "image_credit": "Pedaltrain"
+  },
+  "pedaltrain-metro-max": {
+    "image_url": "https://pedaltrain.com/cdn/shop/products/PedaltrainJrMaxSoftCaseComposite_600x600.png?v=1666900531",
+    "image_source": "https://pedaltrain.com/",
+    "image_credit": "Pedaltrain"
+  },
+  "pedaltrain-nano": {
+    "image_url": "https://pedaltrain.com/cdn/shop/products/PedaltrainNanoSoftCaseComposite_600x600.png?v=1666895229",
+    "image_source": "https://pedaltrain.com/",
+    "image_credit": "Pedaltrain"
+  },
+  "pedaltrain-nano-max": {
+    "image_url": "https://pedaltrain.com/cdn/shop/products/PedaltrainNanoMaxSoftCaseComposite_600x600.png?v=1666894868",
+    "image_source": "https://pedaltrain.com/",
+    "image_credit": "Pedaltrain"
+  },
+  "pedaltrain-nano-plus": {
+    "image_url": "https://pedaltrain.com/cdn/shop/products/PedaltrainNano_SoftCaseComposite_1200x1200.png?v=1666895013",
+    "image_source": "https://pedaltrain.com/products/pt-npl-sc",
+    "image_credit": "Pedaltrain"
+  },
+  "pedaltrain-novo-18": {
+    "image_url": "https://pedaltrain.com/cdn/shop/products/pt-vdl-mk-voodoo-lab-mounting-kit-for-novo-classic-and-terra-series-accessories-pt-vdl-mk-pedaltrain_600x338.jpg?v=1563466002",
+    "image_source": "https://pedaltrain.com/",
+    "image_credit": "Pedaltrain"
+  },
+  "pedaltrain-novo-24": {
+    "image_url": "https://pedaltrain.com/cdn/shop/products/pt-vdl-mk-voodoo-lab-mounting-kit-for-novo-classic-and-terra-series-accessories-pt-vdl-mk-pedaltrain_600x338.jpg?v=1563466002",
+    "image_source": "https://pedaltrain.com/",
+    "image_credit": "Pedaltrain"
+  },
+  "pedaltrain-novo-32": {
+    "image_url": "https://pedaltrain.com/cdn/shop/products/pt-vdl-mk-voodoo-lab-mounting-kit-for-novo-classic-and-terra-series-accessories-pt-vdl-mk-pedaltrain_600x338.jpg?v=1563466002",
+    "image_source": "https://pedaltrain.com/",
+    "image_credit": "Pedaltrain"
+  },
+  "pedaltrain-terra-42": {
+    "image_url": "https://pedaltrain.com/cdn/shop/products/pt-vdl-mk-voodoo-lab-mounting-kit-for-novo-classic-and-terra-series-accessories-pt-vdl-mk-pedaltrain_600x338.jpg?v=1563466002",
+    "image_source": "https://pedaltrain.com/",
+    "image_credit": "Pedaltrain"
+  },
+  "bigsky": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2016/02/bigsky_topdown_grad2_1600-1024x1024-1.jpeg",
+    "image_source": "https://www.strymon.net/product/bigsky/",
+    "image_credit": "Strymon"
+  },
+  "bigsky-mx": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2024/03/BigSkyMX_Press_AngleBeauty_Trans_HeroSite-1024x839.png",
+    "image_source": "https://www.strymon.net/product/bigsky-mx/",
+    "image_credit": "Strymon"
+  },
+  "brig": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2023/07/Brig_StoreImage.jpg",
+    "image_source": "https://www.strymon.net/product/brig/",
+    "image_credit": "Strymon"
+  },
+  "cloudburst": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2023/01/Cloudburst_StoreImage_NoBorder.jpg",
+    "image_source": "https://www.strymon.net/product/cloudburst-2/",
+    "image_credit": "Strymon"
+  },
+  "compadre": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2015/07/compadre_topdown_grad2_1600.jpg",
+    "image_source": "https://www.strymon.net/product/compadre/",
+    "image_credit": "Strymon"
+  },
+  "strymon-conduit": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2021/05/conduit_topdown_grad_1600.jpg",
+    "image_source": "https://www.strymon.net/product/conduit/",
+    "image_credit": "Strymon"
+  },
+  "dig-v2": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2016/02/DIG_StoreImage_NoBorder.jpg",
+    "image_source": "https://www.strymon.net/product/dig/",
+    "image_credit": "Strymon"
+  },
+  "deco-v2": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2016/02/Deco_StoreImage_NoBorder.jpg",
+    "image_source": "https://www.strymon.net/product/deco/",
+    "image_credit": "Strymon"
+  },
+  "ec-1": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2025/02/EC1_StoreImage.jpg",
+    "image_source": "https://www.strymon.net/product/ec-1/",
+    "image_credit": "Strymon"
+  },
+  "flint-v2": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2015/09/Flint_StoreImage_NoBorder.jpg",
+    "image_source": "https://www.strymon.net/product/flint/",
+    "image_credit": "Strymon"
+  },
+  "iridium": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2015/07/iridium_topdown_grad2_1600.jpg",
+    "image_source": "https://www.strymon.net/product/iridium/",
+    "image_credit": "Strymon"
+  },
+  "lex-v2": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2015/09/Lex_StoreImage_NoBorder.jpg",
+    "image_source": "https://www.strymon.net/product/lex/",
+    "image_credit": "Strymon"
+  },
+  "strymon-miniswitch": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2015/09/miniswitch_topdown_grad_1600.jpg",
+    "image_source": "https://www.strymon.net/product/miniswitch/",
+    "image_credit": "Strymon"
+  },
+  "mobius": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2015/07/mobius_topdown_grad_1600.jpg",
+    "image_source": "https://www.strymon.net/product/mobius/",
+    "image_credit": "Strymon"
+  },
+  "strymon-multiswitch-plus": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2019/01/multiswitch_top_rear_long_1600.jpg",
+    "image_source": "https://www.strymon.net/product/multiswitchplus/",
+    "image_credit": "Strymon"
+  },
+  "nightsky": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2015/09/nightsky_topdown_grad_1600.jpg",
+    "image_source": "https://www.strymon.net/product/nightsky/",
+    "image_credit": "Strymon"
+  },
+  "ojai": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2017/09/ojai_topdown_grad_1600.jpg",
+    "image_source": "https://www.strymon.net/product/ojai/",
+    "image_credit": "Strymon"
+  },
+  "ojai-r30": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2017/08/ojai_r30_front_1600_crop-1024x328.jpg",
+    "image_source": "https://www.strymon.net/product/ojai-r30/",
+    "image_credit": "Strymon"
+  },
+  "riverside": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2015/07/riverside_topdown_grad_1600.jpg",
+    "image_source": "https://www.strymon.net/product/riverside/",
+    "image_credit": "Strymon"
+  },
+  "sunset": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2015/07/sunset_topdown_grad_1600.jpg",
+    "image_source": "https://www.strymon.net/product/sunset/",
+    "image_credit": "Strymon"
+  },
+  "timeline": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2015/09/timeline_featureboxes_v2.png",
+    "image_source": "https://www.strymon.net/product/timeline/",
+    "image_credit": "Strymon"
+  },
+  "timeline-mx": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2026/05/TimeLineMX_Site_Hero_Pedal_Trans-1024x832.png",
+    "image_source": "https://www.strymon.net/product/timeline-mx/",
+    "image_credit": "Strymon"
+  },
+  "ultraviolet": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2023/09/Ultraviolet_StoreImage.jpg",
+    "image_source": "https://www.strymon.net/product/ultraviolet/",
+    "image_credit": "Strymon"
+  },
+  "volante": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2021/03/volante_topdown_grad2_1600.jpeg",
+    "image_source": "https://www.strymon.net/product/volante/",
+    "image_credit": "Strymon"
+  },
+  "zelzah": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2021/07/Zelzah_Store.jpg",
+    "image_source": "https://www.strymon.net/product/zelzah/",
+    "image_credit": "Strymon"
+  },
+  "zuma": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2017/09/zuma_topdown_grad_1600.jpg",
+    "image_source": "https://www.strymon.net/product/zuma/",
+    "image_credit": "Strymon"
+  },
+  "zuma-r300": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2017/11/zuma_r300_front_onwhite_1600-1024x406.jpg",
+    "image_source": "https://www.strymon.net/product/zuma-r300/",
+    "image_credit": "Strymon"
+  },
+  "bluesky-v2": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2016/02/blueSky_StoreImage_NoBorder.jpg",
+    "image_source": "https://www.strymon.net/product/bluesky/",
+    "image_credit": "Strymon"
+  },
+  "truetone-cs11": {
+    "image_url": "https://truetone.com/CS11/cs11-main.png",
+    "image_source": "https://truetone.com/",
+    "image_credit": "Truetone"
+  },
+  "truetone-cs12": {
+    "image_url": "https://truetone.com/CS12/cs12-main.png",
+    "image_source": "https://truetone.com/CS12/",
+    "image_credit": "Truetone"
+  },
+  "truetone-cs6": {
+    "image_url": "https://truetone.com/CS6/cs6-main-img.png",
+    "image_source": "https://truetone.com/CS6/",
+    "image_credit": "Truetone"
+  },
+  "truetone-cs7": {
+    "image_url": "https://truetone.com/CS7/cs7-main.png",
+    "image_source": "https://truetone.com/CS7/",
+    "image_credit": "Truetone"
+  },
+  "truetone-xp5": {
+    "image_url": "https://truetone.com/XP5/xp5-main.png",
+    "image_source": "https://truetone.com/",
+    "image_credit": "Truetone"
+  },
+  "truetone-xp5-ps": {
+    "image_url": "https://www.truetone.com/cs11-cinematic.png",
+    "image_source": "https://truetone.com/",
+    "image_credit": "Truetone"
+  },
+  "truetone-xp8-ps": {
+    "image_url": "https://www.truetone.com/cs11-cinematic.png",
+    "image_source": "https://truetone.com/",
+    "image_credit": "Truetone"
+  },
+  "pedal-power-3": {
+    "image_url": "https://voodoolab.com/wp-content/uploads/2022/07/pedal_power_3_top-800x533.avif",
+    "image_source": "https://voodoolab.com/product/pedal-power-3/",
+    "image_credit": "Voodoo Lab"
+  },
+  "pedal-power-3-plus": {
+    "image_url": "https://voodoolab.com/wp-content/uploads/2022/07/pedal_power_3_plus_top-800x533.avif",
+    "image_source": "https://voodoolab.com/product/pedal-power-3plus/",
+    "image_credit": "Voodoo Lab"
+  },
+  "line-6-helix-floor": {
+    "image_url": "https://line6.com/data/6/0a020a41bc8c6438598260af8/image/jpeg",
+    "image_source": "https://line6.com/helix/",
+    "image_credit": "Line 6"
+  },
+  "line-6-helix-lt": {
+    "image_url": "https://line6.com/data/6/0a020a411fe064a47f5d07bcd/image/jpeg",
+    "image_source": "https://line6.com/helix/helix-lt.html",
+    "image_credit": "Line 6"
+  },
+  "line-6-hx-stomp": {
+    "image_url": "https://line6.com/data/6/0a020a4091056006ff21673c6/image/jpeg/file.jpeg",
+    "image_source": "https://line6.com/hx-stomp/",
+    "image_credit": "Line 6"
+  },
+  "line-6-hx-stomp-xl": {
+    "image_url": "https://line6.com/data/6/0a020a3f155d5600625d397203/image/jpeg/file.jpeg",
+    "image_source": "https://line6.com/hx-stomp-xl/",
+    "image_credit": "Line 6"
+  },
+  "line-6-hx-effects": {
+    "image_url": "https://line6.com/data/6/0a020a41ea065fff3561292af/image/png",
+    "image_source": "https://line6.com/hx-effects/",
+    "image_credit": "Line 6"
+  },
+  "line-6-pod-go": {
+    "image_url": "https://line6.com/data/6/0a020a3ffa6260219d451631c/image/jpeg/file.jpeg",
+    "image_source": "https://line6.com/podgo/",
+    "image_credit": "Line 6"
+  },
+  "line-6-pod-go-wireless": {
+    "image_url": "https://line6.com/data/6/0a020a3ffa6260219d451631c/image/jpeg/file.jpeg",
+    "image_source": "https://line6.com/podgo/",
+    "image_credit": "Line 6"
+  },
+  "line-6-hx-one": {
+    "image_url": "https://line6.com/data/6/0a020a3fc26c65122bab5d51d/image/jpeg",
+    "image_source": "https://line6.com/hx-one/",
+    "image_credit": "Line 6"
+  },
+  "ibanez-ts9-tube-screamer": {
+    "image_url": "https://www.ibanez.com/common/product_artist_file/file/p_region_TS9_en_1.png",
+    "image_source": "https://www.ibanez.com/usa/products/detail/ts9_99.html",
+    "image_credit": "Ibanez"
+  },
+  "boss-ds-1-distortion": {
+    "image_url": "https://static.roland.com/products/ds-1/images/ds-1_hero.jpg",
+    "image_source": "https://www.boss.info/us/products/ds-1/",
+    "image_credit": "BOSS"
+  },
+  "boss-sd-1-super-overdrive": {
+    "image_url": "https://static.roland.com/products/sd-1-4a/images/sd-1_hero.jpg",
+    "image_source": "https://www.boss.info/us/products/sd-1/",
+    "image_credit": "BOSS"
+  },
+  "boss-bd-2-blues-driver": {
+    "image_url": "https://static.roland.com/products/bd-2/images/bd-2_hero.jpg",
+    "image_source": "https://www.boss.info/us/products/bd-2/",
+    "image_credit": "BOSS"
+  },
+  "boss-ch-1-super-chorus": {
+    "image_url": "https://static.roland.com/assets/images/products/main/ch_1_main.jpg",
+    "image_source": "https://www.boss.info/us/products/ch-1/",
+    "image_credit": "BOSS"
+  },
+  "boss-dd-8-digital-delay": {
+    "image_url": "https://static.roland.com/products/dd-8/image/dd-8_hero.jpg",
+    "image_source": "https://www.boss.info/us/products/dd-8/",
+    "image_credit": "BOSS"
+  },
+  "mxr-phase-90": {
+    "image_url": "https://cdn11.bigcommerce.com/s-n26aknlnlm/stencil/fb4ed910-891f-013f-3cdb-1251f161c312/e/a7f1acc0-9024-013f-099d-5aa92d6f498c/img/loading.svg",
+    "image_source": "https://www.jimdunlop.com/mxr-phase-90/",
+    "image_credit": "MXR"
+  },
+  "mxr-carbon-copy-analog-delay": {
+    "image_url": "https://cdn11.bigcommerce.com/s-n26aknlnlm/products/607/images/6299/11169000001.MAIN__89194.1663874794.386.513.jpg?c=2",
+    "image_source": "https://www.jimdunlop.com/mxr-carbon-copy-analog-delay/",
+    "image_credit": "MXR"
+  },
+  "electro-harmonix-nano-big-muff-pi": {
+    "image_url": "https://www.ehx.com/wp-content/uploads/2020/10/nanobm-f.jpg",
+    "image_source": "https://www.ehx.com/products/nano-big-muff-pi/",
+    "image_credit": "Electro-Harmonix"
+  },
+  "electro-harmonix-deluxe-big-muff-pi": {
+    "image_url": "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=",
+    "image_source": "https://www.ehx.com/products/deluxe-big-muff-pi/",
+    "image_credit": "Electro-Harmonix"
+  },
+  "strymon-el-capistan-v2": {
+    "image_url": "https://www.strymon.net/wp-content/uploads/2016/02/ElCap_StoreImage_NoBorder.jpg",
+    "image_source": "https://www.strymon.net/product/elcapistan/",
+    "image_credit": "Strymon"
+  },
+  "red-panda-bitmap-2": {
+    "image_url": "https://cdn11.bigcommerce.com/s-5d662uh/images/stencil/1000x1000/products/85/481/RPL_103V2_front__20398.1696650529.jpg?c=2",
+    "image_source": "https://www.redpandalab.com/products/bitmap",
+    "image_credit": "Red Panda"
+  },
+  "red-panda-context-2": {
+    "image_url": "https://cdn11.bigcommerce.com/s-5d662uh/images/stencil/1000x1000/products/77/471/RedPandaLab_Context_Front__80774.1604331453.jpg?c=2",
+    "image_source": "https://www.redpandalab.com/products/context",
+    "image_credit": "Red Panda"
+  },
+  "red-panda-particle-2": {
+    "image_url": "https://cdn11.bigcommerce.com/s-5d662uh/products/76/images/484/Particle_2_Front__92956.1611497864.386.513.jpg?c=2",
+    "image_source": "https://www.redpandalab.com/products/particle",
+    "image_credit": "Red Panda"
+  },
+  "red-panda-radius": {
+    "image_url": "https://cdn11.bigcommerce.com/s-5d662uh/products/128/images/552/redpanda_radius_front__86357.1700409671.386.513.jpg?c=2",
+    "image_source": "https://www.redpandalab.com/products/radius",
+    "image_credit": "Red Panda"
+  },
+  "red-panda-raster-2": {
+    "image_url": "https://cdn11.bigcommerce.com/s-5d662uh/products/89/images/493/redpanda_raster2_front__62080.1627923384.386.513.jpg?c=2",
+    "image_source": "https://www.redpandalab.com/products/raster",
+    "image_credit": "Red Panda"
+  },
+  "red-panda-rd-1-pitch-delay": {
+    "image_url": "https://cdn11.bigcommerce.com/s-5d662uh/images/stencil/1000x1000/products/133/593/RD-1_PitchDelay_1__68577.1773342441.jpg?c=2",
+    "image_source": "https://www.redpandalab.com/products/rd-1-pitch-delay",
+    "image_credit": "Red Panda"
+  },
+  "red-panda-tensor": {
+    "image_url": "https://cdn11.bigcommerce.com/s-5d662uh/products/99/images/467/RedPandaLab_Tensor_Front__47690.1604331479.386.513.jpg?c=2",
+    "image_source": "https://www.redpandalab.com/products/tensor",
+    "image_credit": "Red Panda"
+  },
+  "red-panda-buffer": {
+    "image_url": "https://cdn11.bigcommerce.com/s-5d662uh/images/stencil/1000x1000/products/91/420/rpl107.main__26690.1781920352.jpg?c=2",
+    "image_source": "https://www.redpandalab.com/products/buffer.html",
+    "image_credit": "Red Panda"
+  },
+  "red-panda-mixer": {
+    "image_url": "https://cdn11.bigcommerce.com/s-5d662uh/images/stencil/1000x1000/products/92/417/rpl105.main__24542.1748172789.jpg?c=2",
+    "image_source": "https://www.redpandalab.com/products/mixer.html",
+    "image_credit": "Red Panda"
+  },
+  "red-panda-remote-4": {
+    "image_url": "https://cdn11.bigcommerce.com/s-5d662uh/images/stencil/1000x1000/products/101/432/rpl005.main.web__37777.1604331390.jpg?c=2",
+    "image_source": "https://www.redpandalab.com/products/remote-4.html",
+    "image_credit": "Red Panda"
+  },
+  "red-panda-cv-to-expression-cable": {
+    "image_url": "https://cdn11.bigcommerce.com/s-5d662uh/images/stencil/1000x1000/products/86/308/cv_cable__32023.1507669933.jpg?c=2",
+    "image_source": "https://www.redpandalab.com/accessories/cv-expression-cable",
+    "image_credit": "Red Panda"
+  }
+}

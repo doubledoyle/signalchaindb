@@ -1,0 +1,39 @@
+name: Sync product images
+
+on:
+  push:
+    branches:
+      - feature/all-product-images
+    paths:
+      - scripts/sync-product-images.mjs
+      - .github/workflows/sync-product-images.yml
+      - data/signalchain.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feature/all-product-images
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Discover manufacturer images
+        run: node scripts/sync-product-images.mjs
+      - name: Commit generated image metadata
+        run: |
+          if git diff --quiet -- data/product-images.generated.json data/product-images-report.json; then
+            echo "No image metadata changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/product-images.generated.json data/product-images-report.json
+          git commit -m "chore: sync product images"
+          git push
