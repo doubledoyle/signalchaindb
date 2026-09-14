@@ -3,6 +3,7 @@ import Link from "next/link";
 import {notFound} from "next/navigation";
 import {products,productBySlug,productRelations,productPorts,productEffectParameters,measurementsForParameter} from "@/lib/data";
 import {Badge} from "@/components/Badge";
+import {ProductImage} from "@/components/ProductImage";
 import {mmToIn,pretty} from "@/lib/format";
 import type {Port,EffectParameter} from "@/lib/types";
 
@@ -43,7 +44,9 @@ export default async function ProductPage({params}:{params:Promise<{slug:string}
       {p.manufacturer_url&&<a className="button ghost" href={p.manufacturer_url} target="_blank" rel="noreferrer">Manufacturer ↗</a>}
     </div>
 
-    {p.description&&<p className="lead">{p.description}</p>}
+    <div style={{marginTop:22}}><ProductImage product={p} variant="hero"/></div>
+
+    {p.description&&<p className="lead" style={{marginTop:24}}>{p.description}</p>}
 
     {paramsData.length>0&&<section className="section">
       <div className="sectionHead">
@@ -128,10 +131,8 @@ export default async function ProductPage({params}:{params:Promise<{slug:string}
   </main>
 }
 
-
 function ParameterRow({param}:{param:EffectParameter}){
   const measurements=measurementsForParameter(param.id);
-
   const range=param.display_value
     ? param.display_value
     : measurements.length>0
@@ -204,12 +205,9 @@ function groupPorts(ports:Port[]){
     const c=(port.connector||'').toLowerCase();
     const haystack=`${t} ${c}`;
     let group='Other';
-
-    // Classify specific control/digital families before generic audio words like "input" and "output".
-    if(/expression|footswitch|control|pedal|toe|omniport|\bexp\b|\bfs\b/.test(t)) group='Control';
-    else if(/midi|usb|digital|spdif|s\/pdif|aes|adat|variax|l6 link/.test(haystack)) group='MIDI & Digital';
-    else if(/audio|instrument|guitar|mic|line|send|return|headphone|main|monitor|xlr|stereo|aux|\binput\b|\boutput\b/.test(haystack)) group='Audio';
-
+    if(/expression|footswitch|control|pedal|toe|omniport|\bexp\b|\bfs\b/.test(t))group='Control';
+    else if(/midi|usb|digital|spdif|s\/pdif|aes|adat|variax|l6 link/.test(haystack))group='MIDI & Digital';
+    else if(/audio|instrument|guitar|mic|line|send|return|headphone|main|monitor|xlr|stereo|aux|\binput\b|\boutput\b/.test(haystack))group='Audio';
     buckets.get(group)!.push(port);
   }
   return order.map(name=>({name,ports:buckets.get(name)!})).filter(g=>g.ports.length>0);
