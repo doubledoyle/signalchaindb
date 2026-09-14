@@ -46,7 +46,7 @@ export const productImages:Record<string,ProductImageMetadata>={
     image_credit:"BOSS / Roland"
   },
   "boss-me-90":{
-    image_url:"https://static.roland.com/products/me-90/image/me-90_hero.jpg",
+    image_url:"https://static.roland.com/products/me-90/image/me-90_section_02.jpg",
     image_source:"https://www.boss.info/us/products/me-90/",
     image_credit:"BOSS / Roland"
   },
