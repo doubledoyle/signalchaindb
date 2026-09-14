@@ -56,7 +56,7 @@ export const productImages:Record<string,ProductImageMetadata>={
     image_credit:"Line 6"
   },
   "line-6-hx-one":{
-    image_url:"https://line6.com/data/6/0a020a3fc26c65122bab5d51d/image/jpeg",
+    image_url:"/products/studio/line-6-hx-one.webp",
     image_source:"https://line6.com/hx-one/",
     image_credit:"Line 6"
   },
@@ -86,12 +86,12 @@ export const productImages:Record<string,ProductImageMetadata>={
     image_credit:"Line 6"
   },
   "powercab-112-plus":{
-    image_url:"https://line6.com/data/6/0a00040903de6871c67724381/image/jpeg",
+    image_url:"/products/studio/powercab-112-plus.webp",
     image_source:"https://line6.com/powercab/",
     image_credit:"Line 6"
   },
   "powercab-212-plus":{
-    image_url:"https://line6.com/data/6/0a00040903fa6871c326819d9/image/jpeg",
+    image_url:"/products/studio/powercab-212-plus.webp",
     image_source:"https://line6.com/powercab/",
     image_credit:"Line 6"
   },
@@ -116,22 +116,22 @@ export const productImages:Record<string,ProductImageMetadata>={
     image_credit:"Neural DSP"
   },
   "ml10x":{
-    image_url:"https://d2j6dbq0eux0bg.cloudfront.net/images/10246158/products/478657752/5499084735.webp",
+    image_url:"/products/studio/ml10x.webp",
     image_source:"https://www.morningstar.io/ml10x",
     image_credit:"Morningstar Engineering"
   },
   "ml5":{
-    image_url:"https://d2j6dbq0eux0bg.cloudfront.net/images/10246158/products/125258809/4929206888.webp",
+    image_url:"/products/studio/ml5.webp",
     image_source:"https://shop.morningstar.io/products/ML5-p125258809",
     image_credit:"Morningstar Engineering"
   },
   "mc6-pro":{
-    image_url:"https://d2j6dbq0eux0bg.cloudfront.net/images/10246158/products/531932004/5342056496.jpg",
+    image_url:"/products/studio/mc6-pro.webp",
     image_source:"https://shop.morningstar.io/products/MC6-PRO-p531932004",
     image_credit:"Morningstar Engineering"
   },
   "mc8":{
-    image_url:"https://d2j6dbq0eux0bg.cloudfront.net/images/10246158/products/161734004/4929206853.webp",
+    image_url:"/products/studio/mc8.webp",
     image_source:"https://shop.morningstar.io/products/MC8-p161734004",
     image_credit:"Morningstar Engineering"
   },
@@ -216,12 +216,12 @@ export const productImages:Record<string,ProductImageMetadata>={
     image_credit:"Fender"
   },
   "kemper-profiler-player":{
-    image_url:"https://www.kemper-amps.com/images/pagecontent/products_profiler-player_cropped_wh.jpg?v5=",
+    image_url:"/products/studio/kemper-profiler-player.webp",
     image_source:"https://www.kemper-amps.com/profiler/overview",
     image_credit:"Kemper"
   },
   "sp1-nd-quad-cortex":{
-    image_url:"https://media.sweetwater.com/m/products/image/18870286f6Rh1aGw60b0HpYNf18kXBCddw3MGG5x.jpg?ha=18870286f67e52e29c3b3c71ecc7e61db242f341&quality=82&width=750",
+    image_url:"/products/studio/sp1-nd-quad-cortex.webp",
     image_source:"https://www.sweetwater.com/store/detail/SP1NDGY--mission-engineering-inc-sp1-nd-quad-cortex-expression-pedal-with-toe-switch-grey-metallic",
     image_credit:"Mission Engineering / Sweetwater"
   },
