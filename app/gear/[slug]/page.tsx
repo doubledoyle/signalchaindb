@@ -31,22 +31,23 @@ export default async function ProductPage({params}:{params:Promise<{slug:string}
   return <main className="shell page">
     <Link className="back" href="/gear">← Back to gear</Link>
 
-    <div className="productHero">
+    <section style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(300px,1fr))',gap:32,alignItems:'center',marginBottom:30}}>
       <div>
         <div className="eyebrow">{p.brand}</div>
-        <h1>{p.name}</h1>
+        <h1 style={{fontSize:'clamp(48px,7vw,86px)',lineHeight:.92,letterSpacing:'-.07em',margin:'8px 0 20px'}}>{p.name}</h1>
         <div className="cardMeta">
           <span className="chip">{p.category}</span>
           <Badge value={p.verification_status}/>
           {p.verified_at&&<span className="chip">verified {p.verified_at}</span>}
         </div>
+        {p.description&&<p className="lead" style={{margin:'24px 0 0',fontSize:18,maxWidth:620}}>{p.description}</p>}
+        {p.manufacturer_url&&<a className="button ghost" style={{marginTop:22}} href={p.manufacturer_url} target="_blank" rel="noreferrer">Manufacturer ↗</a>}
       </div>
-      {p.manufacturer_url&&<a className="button ghost" href={p.manufacturer_url} target="_blank" rel="noreferrer">Manufacturer ↗</a>}
-    </div>
 
-    <div style={{marginTop:22}}><ProductImage product={p} variant="hero"/></div>
-
-    {p.description&&<p className="lead" style={{marginTop:24}}>{p.description}</p>}
+      <div style={{width:'100%',maxWidth:460,justifySelf:'end'}}>
+        <ProductImage product={p} variant="hero"/>
+      </div>
+    </section>
 
     {paramsData.length>0&&<section className="section">
       <div className="sectionHead">
