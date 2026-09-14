@@ -16,8 +16,8 @@ export const productImages:Record<string,ProductImageMetadata>={
     image_credit:"Line 6"
   },
   "dl4-mkii":{
-    image_url:"https://l6c-acdn2.line6.net/data/6/0a020a408ab7632b399b5e600/image/png/file.png",
-    image_source:"https://origin.line6.com/company/press-photos/",
+    image_url:"https://line6.com/data/6/0a020a3f2351632494b974719/image/png",
+    image_source:"https://line6.com/effects-pedals/dl4-mkii/",
     image_credit:"Line 6"
   },
   "line6-ex2":{
@@ -61,17 +61,17 @@ export const productImages:Record<string,ProductImageMetadata>={
     image_credit:"Line 6"
   },
   "pod-express-bass":{
-    image_url:"https://line6.com/data/6/0a020a3fcba565aafbedac46d/image/png",
+    image_url:"https://l6c-acdn2.line6.net/data/6/0a000b1e005167c64e1279462/image/jpeg/file.jpeg",
     image_source:"https://line6.com/podexpress/bass-effects/",
     image_credit:"Line 6"
   },
   "pod-express-black":{
-    image_url:"https://line6.com/data/6/0a00051995e666f1a306ef972/image/png",
+    image_url:"https://l6c-acdn2.line6.net/data/6/0a000b1e003567c648e9e8ba0/image/jpeg/file.jpeg",
     image_source:"https://line6.com/podexpress/guitar-effects-black",
     image_credit:"Line 6"
   },
   "pod-express-guitar":{
-    image_url:"https://line6.com/data/6/0a020a40d2ad65aae791c10cb/image/png",
+    image_url:"https://l6c-acdn2.line6.net/data/6/0a000b03005267c651f0a77a4/image/jpeg/file.jpeg",
     image_source:"https://line6.com/podexpress/guitar-effects/",
     image_credit:"Line 6"
   },
