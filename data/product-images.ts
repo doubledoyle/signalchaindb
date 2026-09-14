@@ -15,6 +15,136 @@ export const productImages:Record<string,ProductImageMetadata>={
     image_source:"https://line6.com/hx-stomp-xl/",
     image_credit:"Line 6"
   },
+  "dl4-mkii":{
+    image_url:"https://l6c-acdn2.line6.net/data/6/0a020a408ab7632b399b5e600/image/png/file.png",
+    image_source:"https://origin.line6.com/company/press-photos/",
+    image_credit:"Line 6"
+  },
+  "line6-ex2":{
+    image_url:"https://line6.com/data/6/0a00041800e869140e2ba8cf9/image/png",
+    image_source:"https://line6.com/helix-stadium/",
+    image_credit:"Line 6"
+  },
+  "expand-d10":{
+    image_url:"https://line6.com/data/6/0a00041800e869140e50e51e7/image/png",
+    image_source:"https://line6.com/helix-stadium/",
+    image_credit:"Line 6"
+  },
+  "line-6-helix-floor":{
+    image_url:"https://line6.com/data/6/0a020a41bd9c64385b2082931/image/png",
+    image_source:"https://line6.com/helix/",
+    image_credit:"Line 6"
+  },
+  "line-6-helix-lt":{
+    image_url:"https://line6.com/data/6/0a020a3f16ff260b70ccdc387e/image/png",
+    image_source:"https://line6.com/helix/helix-lt.html",
+    image_credit:"Line 6"
+  },
+  "helix-stadium-floor":{
+    image_url:"https://line6.com/data/6/0a00041800e869140dfe55a24/image/png",
+    image_source:"https://line6.com/helix-stadium/",
+    image_credit:"Line 6"
+  },
+  "helix-stadium-xl-floor":{
+    image_url:"https://line6.com/data/6/0a000417010569140dd9dd8bf/image/png",
+    image_source:"https://line6.com/helix-stadium/",
+    image_credit:"Line 6"
+  },
+  "line-6-hx-effects":{
+    image_url:"https://line6.com/data/6/0a020a41ea065fff3561292af/image/png",
+    image_source:"https://line6.com/hx-effects/",
+    image_credit:"Line 6"
+  },
+  "line-6-hx-one":{
+    image_url:"https://line6.com/data/6/0a020a3fc26c65122bab5d51d/image/jpeg",
+    image_source:"https://line6.com/hx-one/",
+    image_credit:"Line 6"
+  },
+  "pod-express-bass":{
+    image_url:"https://line6.com/data/6/0a020a3fcba565aafbedac46d/image/png",
+    image_source:"https://line6.com/podexpress/bass-effects/",
+    image_credit:"Line 6"
+  },
+  "pod-express-black":{
+    image_url:"https://line6.com/data/6/0a00051995e666f1a306ef972/image/png",
+    image_source:"https://line6.com/podexpress/guitar-effects-black",
+    image_credit:"Line 6"
+  },
+  "pod-express-guitar":{
+    image_url:"https://line6.com/data/6/0a020a40d2ad65aae791c10cb/image/png",
+    image_source:"https://line6.com/podexpress/guitar-effects/",
+    image_credit:"Line 6"
+  },
+  "line-6-pod-go":{
+    image_url:"https://l6c-acdn2.line6.net/data/6/0a020a408ab7632b3999b466d/image/png/file.png",
+    image_source:"https://origin.line6.com/company/press-photos/",
+    image_credit:"Line 6"
+  },
+  "line-6-pod-go-wireless":{
+    image_url:"https://l6c-acdn2.line6.net/data/6/0a020a408ab7632b399ac8a6c/image/png/file.png",
+    image_source:"https://origin.line6.com/company/press-photos/",
+    image_credit:"Line 6"
+  },
+  "powercab-112-plus":{
+    image_url:"https://line6.com/data/6/0a00040903de6871c67724381/image/jpeg",
+    image_source:"https://line6.com/powercab/",
+    image_credit:"Line 6"
+  },
+  "powercab-212-plus":{
+    image_url:"https://line6.com/data/6/0a00040903fa6871c326819d9/image/jpeg",
+    image_source:"https://line6.com/powercab/",
+    image_credit:"Line 6"
+  },
+  "powercab-cl-112":{
+    image_url:"https://line6.com/data/6/0a00040a04a26871c0ad5bf00/image/jpeg",
+    image_source:"https://line6.com/powercab/",
+    image_credit:"Line 6"
+  },
+  "powercab-cl-212":{
+    image_url:"https://line6.com/data/6/0a00040a04a26871c03b3fb49/image/jpeg",
+    image_source:"https://line6.com/powercab/",
+    image_credit:"Line 6"
+  },
+  "quad-cortex-mini":{
+    image_url:"https://images.ctfassets.net/8puu65w27ud0/4r5hbDRfqiDNQSLkPINy3M/61088e2be76adfab9c9f579702db6975/QC-Mini-Clean-Angle-web.png?w=1920&fm=webp",
+    image_source:"https://neuraldsp.com/quad-cortex-mini",
+    image_credit:"Neural DSP"
+  },
+  "nano-cortex":{
+    image_url:"https://images.ctfassets.net/8puu65w27ud0/SuuI74Wg43x74gTMmEGXA/f166717e575ee6c016068fe70d8a7d40/nc-product-img.png?w=2048&fm=webp",
+    image_source:"https://neuraldsp.com/nano-cortex",
+    image_credit:"Neural DSP"
+  },
+  "ml10x":{
+    image_url:"https://d2j6dbq0eux0bg.cloudfront.net/images/10246158/products/478657752/5499084735.webp",
+    image_source:"https://www.morningstar.io/ml10x",
+    image_credit:"Morningstar Engineering"
+  },
+  "ml5":{
+    image_url:"https://d2j6dbq0eux0bg.cloudfront.net/images/10246158/products/125258809/4929206888.webp",
+    image_source:"https://shop.morningstar.io/products/ML5-p125258809",
+    image_credit:"Morningstar Engineering"
+  },
+  "mc6-pro":{
+    image_url:"https://d2j6dbq0eux0bg.cloudfront.net/images/10246158/products/531932004/5342056496.jpg",
+    image_source:"https://shop.morningstar.io/products/MC6-PRO-p531932004",
+    image_credit:"Morningstar Engineering"
+  },
+  "mc8":{
+    image_url:"https://d2j6dbq0eux0bg.cloudfront.net/images/10246158/products/161734004/4929206853.webp",
+    image_source:"https://shop.morningstar.io/products/MC8-p161734004",
+    image_credit:"Morningstar Engineering"
+  },
+  "tonex-one":{
+    image_url:"https://www.ikmultimedia.com/products/include/tonexpedals/comp_chart_TONEX_ONE.png",
+    image_source:"https://www.ikmultimedia.com/products/tonexone/",
+    image_credit:"IK Multimedia"
+  },
+  "boss-dd-500":{
+    image_url:"https://www.clynemedia.com/BOSS/SNAMM15/DD500_DelayPedal/BOSS_DD_500.jpg",
+    image_source:"https://www.clynemedia.com/BOSS/SNAMM15/DD500_DelayPedal/BOSS_DD-500_DelayPedal_SNAMM15.html",
+    image_credit:"BOSS / Clyne Media"
+  },
   "gx-10":{
     image_url:"https://static.roland.com/products/gx-10/image/gx-10_hero.jpg",
     image_source:"https://www.boss.info/us/products/gx-10/",
@@ -89,11 +219,6 @@ export const productImages:Record<string,ProductImageMetadata>={
     image_url:"https://www.kemper-amps.com/images/pagecontent/products_profiler-player_cropped_wh.jpg?v5=",
     image_source:"https://www.kemper-amps.com/profiler/overview",
     image_credit:"Kemper"
-  },
-  "dl4-mkii":{
-    image_url:"https://origin2.line6.com/data/6/0a020a3f2351632494b974719/image/png",
-    image_source:"https://origin2.line6.com/effects-pedals/dl4-mkii/",
-    image_credit:"Line 6"
   },
   "sp1-nd-quad-cortex":{
     image_url:"https://media.sweetwater.com/m/products/image/18870286f6Rh1aGw60b0HpYNf18kXBCddw3MGG5x.jpg?ha=18870286f67e52e29c3b3c71ecc7e61db242f341&quality=82&width=750",
