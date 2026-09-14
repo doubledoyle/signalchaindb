@@ -39,5 +39,40 @@ export const productImages:Record<string,ProductImageMetadata>={
     image_url:"https://static.roland.com/products/ir-200/images/ir-200_hero.jpg",
     image_source:"https://www.boss.info/us/products/ir-200/",
     image_credit:"BOSS / Roland"
+  },
+  "boss-gt-1000":{
+    image_url:"https://static.roland.com/products/gt-1000/images/gt-1000_hero.jpg",
+    image_source:"https://www.boss.info/us/products/gt-1000/",
+    image_credit:"BOSS / Roland"
+  },
+  "boss-me-90":{
+    image_url:"https://static.roland.com/products/me-90/image/me-90_hero.jpg",
+    image_source:"https://www.boss.info/us/products/me-90/",
+    image_credit:"BOSS / Roland"
+  },
+  "boss-me-90b":{
+    image_url:"https://static.roland.com/products/me-90b/image/me-90b_hero.jpg",
+    image_source:"https://www.boss.info/us/products/me-90b/",
+    image_credit:"BOSS / Roland"
+  },
+  "boss-rc-5":{
+    image_url:"https://static.roland.com/products/rc-5/images/rc-5_hero.jpg",
+    image_source:"https://www.boss.info/us/products/rc-5/",
+    image_credit:"BOSS / Roland"
+  },
+  "boss-rc-500":{
+    image_url:"https://static.roland.com/products/rc-500/images/rc-500_hero.jpg",
+    image_source:"https://www.boss.info/us/products/rc-500/",
+    image_credit:"BOSS / Roland"
+  },
+  "boss-gx-1":{
+    image_url:"https://static.roland.com/products/gx-1/images/gx-1_hero.jpg",
+    image_source:"https://www.boss.info/us/products/gx-1/",
+    image_credit:"BOSS / Roland"
+  },
+  "boss-gx-1b":{
+    image_url:"https://static.roland.com/products/gx-1b/images/gx-1b_hero.jpg",
+    image_source:"https://www.boss.info/us/products/gx-1b/",
+    image_credit:"BOSS / Roland"
   }
 };
