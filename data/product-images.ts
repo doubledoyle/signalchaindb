@@ -74,5 +74,35 @@ export const productImages:Record<string,ProductImageMetadata>={
     image_url:"https://static.roland.com/products/gx-1b/images/gx-1b_hero.jpg",
     image_source:"https://www.boss.info/us/products/gx-1b/",
     image_credit:"BOSS / Roland"
+  },
+  "micropitch-delay":{
+    image_url:"https://cdn.eventideaudio.com/uploads/2021/02/MicroPitch-Low.png",
+    image_source:"https://www.eventideaudio.com/pedals/micropitch/",
+    image_credit:"Eventide"
+  },
+  "tone-master-pro":{
+    image_url:"https://www.fender.com/cdn/shop/files/2274900000_fen_acc_dtl_1_nr.png?v=1739997272&width=1445",
+    image_source:"https://www.fender.com/products/tone-master-pro",
+    image_credit:"Fender"
+  },
+  "kemper-profiler-player":{
+    image_url:"https://www.kemper-amps.com/images/pagecontent/products_profiler-player_cropped_wh.jpg?v5=",
+    image_source:"https://www.kemper-amps.com/profiler/overview",
+    image_credit:"Kemper"
+  },
+  "dl4-mkii":{
+    image_url:"https://origin2.line6.com/data/6/0a020a3f2351632494b974719/image/png",
+    image_source:"https://origin2.line6.com/effects-pedals/dl4-mkii/",
+    image_credit:"Line 6"
+  },
+  "sp1-nd-quad-cortex":{
+    image_url:"https://media.sweetwater.com/m/products/image/18870286f6Rh1aGw60b0HpYNf18kXBCddw3MGG5x.jpg?ha=18870286f67e52e29c3b3c71ecc7e61db242f341&quality=82&width=750",
+    image_source:"https://www.sweetwater.com/store/detail/SP1NDGY--mission-engineering-inc-sp1-nd-quad-cortex-expression-pedal-with-toe-switch-grey-metallic",
+    image_credit:"Mission Engineering / Sweetwater"
+  },
+  "electro-harmonix-deluxe-big-muff-pi":{
+    image_url:"https://b2155914.assetcdn.net/2155914/wp-content/uploads/2020/10/dlxbm-f.jpg?lossy=1&strip=1&webp=1",
+    image_source:"https://www.ehx.com/products/deluxe-big-muff-pi/",
+    image_credit:"Electro-Harmonix"
   }
 };
