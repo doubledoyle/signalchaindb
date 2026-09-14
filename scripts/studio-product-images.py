@@ -52,6 +52,8 @@ def has_white_background(im: Image.Image) -> bool:
 
 def remove_edge_white(im: Image.Image) -> Image.Image:
     rgba = im.convert("RGBA")
+    if max(rgba.size) > 1600:
+        rgba.thumbnail((1600, 1600), Image.Resampling.LANCZOS)
     rgb = rgba.convert("RGB")
     w, h = rgba.size
     bg = bytearray(w * h)
@@ -161,7 +163,7 @@ def main() -> None:
                 continue
             studio = compose_studio(remove_edge_white(im))
             rel = f"/products/studio/{slug}.webp"
-            out = ROOT / rel.lstrip("/")
+            out = ROOT / "public" / rel.lstrip("/")
             out.parent.mkdir(parents=True, exist_ok=True)
             studio.save(out, "WEBP", quality=92, method=6)
             replacements[slug] = rel
