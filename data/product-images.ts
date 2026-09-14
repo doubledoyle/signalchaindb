@@ -15,11 +15,6 @@ export const productImages:Record<string,ProductImageMetadata>={
     image_source:"https://line6.com/hx-stomp-xl/",
     image_credit:"Line 6"
   },
-  "boss-dd-500":{
-    image_url:"https://static.roland.com/assets/images/products/main/dd_500_top_main.jpg",
-    image_source:"https://www.boss.info/us/products/dd-500/",
-    image_credit:"BOSS / Roland"
-  },
   "gx-10":{
     image_url:"https://static.roland.com/products/gx-10/image/gx-10_hero.jpg",
     image_source:"https://www.boss.info/us/products/gx-10/",
@@ -43,16 +38,6 @@ export const productImages:Record<string,ProductImageMetadata>={
   "boss-ir-200":{
     image_url:"https://static.roland.com/products/ir-200/images/ir-200_hero.jpg",
     image_source:"https://www.boss.info/us/products/ir-200/",
-    image_credit:"BOSS / Roland"
-  },
-  "ev-30":{
-    image_url:"https://static.roland.com/assets/images/products/main/ev-30_main.jpg",
-    image_source:"https://www.boss.info/us/products/ev-30/",
-    image_credit:"BOSS / Roland"
-  },
-  "fs-7":{
-    image_url:"https://static.roland.com/assets/images/products/main/fs-7_angle_main.jpg",
-    image_source:"https://www.boss.info/us/products/fs-7/",
     image_credit:"BOSS / Roland"
   }
 };
