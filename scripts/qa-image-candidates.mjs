@@ -48,7 +48,7 @@ function candidates(html,page,target){
     if(hay.includes(full)) score+=120;
     for(const t of tokens) if(hay.includes(t)) score+=18;
     if(/hero|product|top|front|main|storeimage|topdown/i.test(url+" "+alt)) score+=28;
-    if(/rear|back\b|side\b|input|output|\bio\b|connection|featurebox|featureboxes|section|movie|banner|lifestyle|headphone|guitar leaning|person|artist/i.test(url+" "+alt)) score-=42;
+    if(/rear|back\b|side\b|input|output|\bio\b|connection|featurebox|featureboxes|section|movie|banner|lifestyle|headphone|guitar leaning|person|artist|controls|screen|signal chain/i.test(url+" "+alt)) score-=42;
     if(/logo|icon|sprite|badge|loading|placeholder/i.test(url+" "+alt)) score-=120;
     if(/^data:/i.test(url)||/\.svg(?:\?|$)|\.gif(?:\?|$)/i.test(url)) score-=140;
     if(w>=900||h>=900) score+=18; else if(w&&h&&Math.max(w,h)<350) score-=35;
@@ -67,7 +67,7 @@ function candidates(html,page,target){
     for(const v of vals) add(resolve(v,page),a.alt||"","img",Number(a.width||0),Number(a.height||0));
   }
   const seen=new Set();
-  return out.sort((a,b)=>b.score-a.score).filter(x=>!seen.has(x.url)&&seen.add(x.url)).slice(0,12);
+  return out.sort((a,b)=>b.score-a.score).filter(x=>!seen.has(x.url)&&seen.add(x.url)).slice(0,40);
 }
 
 const report=[];
