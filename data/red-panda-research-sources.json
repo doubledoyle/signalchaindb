@@ -1,0 +1,152 @@
+{
+  "generated_at": "2026-09-09",
+  "brand": "Red Panda",
+  "scope": "Current signal-chain-relevant hardware",
+  "excluded": [
+    "Merchandise",
+    "B-stock duplicates",
+    "Legacy/discontinued products",
+    "Repair parts",
+    "Guitar Pedal Stand",
+    "Red Panda Pedal Cover"
+  ],
+  "data_policy": [
+    "Physical/audio units first",
+    "Behavioral landmarks second",
+    "Normalized control travel only when necessary",
+    "MIDI retained as secondary metadata only",
+    "Unknown physical values are not fabricated",
+    "Medium-confidence secondary measurements are explicitly labeled"
+  ],
+  "products": [
+    {
+      "product_id": 161,
+      "name": "Bitmap 2",
+      "slug": "red-panda-bitmap-2",
+      "category": "Effects Pedal",
+      "official_sources": [
+        "https://www.redpandalab.com/products/bitmap",
+        "https://www.redpandalab.com/content/docs/Bitmap%202%20Owners%20Manual.pdf"
+      ],
+      "parameter_count": 11,
+      "verification": "manufacturer researched"
+    },
+    {
+      "product_id": 162,
+      "name": "Context 2",
+      "slug": "red-panda-context-2",
+      "category": "Effects Pedal",
+      "official_sources": [
+        "https://www.redpandalab.com/products/context",
+        "https://www.redpandalab.com/content/docs/Context%202%20Owners%20Manual.pdf"
+      ],
+      "parameter_count": 14,
+      "verification": "manufacturer researched"
+    },
+    {
+      "product_id": 163,
+      "name": "Particle 2",
+      "slug": "red-panda-particle-2",
+      "category": "Effects Pedal",
+      "official_sources": [
+        "https://www.redpandalab.com/products/particle",
+        "https://www.redpandalab.com/content/docs/Particle%202%20Owners%20Manual.pdf"
+      ],
+      "parameter_count": 12,
+      "verification": "manufacturer researched"
+    },
+    {
+      "product_id": 164,
+      "name": "Radius",
+      "slug": "red-panda-radius",
+      "category": "Effects Pedal",
+      "official_sources": [
+        "https://www.redpandalab.com/products/radius",
+        "https://www.redpandalab.com/content/docs/Radius%20Owners%20Manual.pdf"
+      ],
+      "parameter_count": 11,
+      "verification": "manufacturer researched"
+    },
+    {
+      "product_id": 165,
+      "name": "Raster 2",
+      "slug": "red-panda-raster-2",
+      "category": "Effects Pedal",
+      "official_sources": [
+        "https://www.redpandalab.com/products/raster",
+        "https://www.redpandalab.com/content/docs/Raster%202%20Owners%20Manual.pdf"
+      ],
+      "parameter_count": 13,
+      "verification": "manufacturer researched"
+    },
+    {
+      "product_id": 166,
+      "name": "RD-1 Pitch Delay",
+      "slug": "red-panda-rd-1-pitch-delay",
+      "category": "Effects Pedal",
+      "official_sources": [
+        "https://www.redpandalab.com/products/rd-1-pitch-delay"
+      ],
+      "parameter_count": 8,
+      "verification": "manufacturer researched"
+    },
+    {
+      "product_id": 167,
+      "name": "Tensor",
+      "slug": "red-panda-tensor",
+      "category": "Effects Pedal",
+      "official_sources": [
+        "https://www.redpandalab.com/products/tensor",
+        "https://www.redpandalab.com/content/docs/Tensor%20Owners%20Manual.pdf"
+      ],
+      "parameter_count": 9,
+      "verification": "manufacturer researched"
+    },
+    {
+      "product_id": 168,
+      "name": "Buffer",
+      "slug": "red-panda-buffer",
+      "category": "Effects Pedal",
+      "official_sources": [
+        "https://www.redpandalab.com/products/buffer.html",
+        "https://support.redpandalab.com/support/solutions/articles/43000020227-which-power-supply-should-i-use-with-red-panda-pedals-"
+      ],
+      "parameter_count": 1,
+      "verification": "manufacturer researched"
+    },
+    {
+      "product_id": 169,
+      "name": "Mixer",
+      "slug": "red-panda-mixer",
+      "category": "Effects Pedal",
+      "official_sources": [
+        "https://www.redpandalab.com/products/mixer.html",
+        "https://support.redpandalab.com/support/solutions/articles/43000719236-can-a-tablet-or-laptop-be-connected-to-the-bit-mixer-"
+      ],
+      "parameter_count": 3,
+      "verification": "manufacturer researched"
+    },
+    {
+      "product_id": 170,
+      "name": "Remote 4",
+      "slug": "red-panda-remote-4",
+      "category": "Footswitch",
+      "official_sources": [
+        "https://www.redpandalab.com/products/remote-4.html"
+      ],
+      "parameter_count": 0,
+      "verification": "manufacturer researched"
+    },
+    {
+      "product_id": 171,
+      "name": "CV to Expression Cable",
+      "slug": "red-panda-cv-to-expression-cable",
+      "category": "Cable / Adapter",
+      "official_sources": [
+        "https://www.redpandalab.com/accessories/cv-expression-cable"
+      ],
+      "parameter_count": 0,
+      "verification": "manufacturer researched"
+    }
+  ]
+}

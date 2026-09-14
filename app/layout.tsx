@@ -1,0 +1,3 @@
+import type {Metadata} from "next";import "./globals.css";import {Header} from "@/components/Header";
+export const metadata:Metadata={title:{default:"SignalChainDB — Music Gear Compatibility","template":"%s | SignalChainDB"},description:"Source-backed music gear compatibility for power, MIDI, expression pedals, footswitches, and pedalboard fit."};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body><Header/>{children}<footer><div className="shell footerInner"><b>SignalChainDB</b><span>Know what works before you plug it in.</span></div></footer></body></html>}

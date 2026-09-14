@@ -1,0 +1,2 @@
+import Link from "next/link";
+export function Header(){return <header className="siteHeader"><div className="shell nav"><Link className="logo" href="/">SignalChain<span>DB</span></Link><nav><Link href="/gear">Gear</Link><Link href="/compatibility">Compatibility</Link><Link href="/rig-builder">Rig Builder</Link><Link href="/about">About</Link></nav></div></header>}

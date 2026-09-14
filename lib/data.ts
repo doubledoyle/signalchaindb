@@ -1,0 +1,18 @@
+import raw from "@/data/signalchain.json";
+import type {Product,Compatibility,Source,PowerSupplyOutput,Port,EffectParameter,ParameterMeasurement} from "./types";
+export const products=raw.products as Product[];
+export const compatibility=raw.compatibility as Compatibility[];
+export const sources=raw.sources as Source[];
+export const powerOutputs=(raw.power_outputs || []) as PowerSupplyOutput[];
+export const ports=(raw.ports || []) as Port[];
+export const effectParameters=((raw as any).effect_parameters || []) as EffectParameter[];
+export const parameterMeasurements=((raw as any).parameter_measurements || []) as ParameterMeasurement[];
+export const brands=raw.brands;
+export const categories=raw.categories;
+export const productBySlug=(slug:string)=>products.find(p=>p.slug===slug);
+export const productSources=(id:number)=>sources.filter(s=>s.product_id===id);
+export const productRelations=(id:number)=>compatibility.filter(r=>r.source_id===id||r.target_id===id);
+export const productPorts=(id:number)=>ports.filter(p=>p.product_id===id);
+export const productEffectParameters=(id:number)=>effectParameters.filter(p=>p.product_id===id);
+export const measurementsForParameter=(id:number)=>parameterMeasurements.filter(m=>m.parameter_id===id);
+export const stats={products:products.length,brands:brands.length,relations:compatibility.length,verified:products.filter(p=>p.verification_status==='verified').length,sources:sources.length};

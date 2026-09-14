@@ -1,0 +1,443 @@
+{
+  "generated_at": "2026-09-09",
+  "effects_pedals_total": 62,
+  "effects_pedals_with_parameters": 62,
+  "effects_pedals_without_parameters": 0,
+  "pedals_with_parameters": [
+    {
+      "id": 7,
+      "brand": "Strymon",
+      "name": "TimeLine",
+      "slug": "timeline",
+      "parameter_count": 10
+    },
+    {
+      "id": 8,
+      "brand": "Strymon",
+      "name": "TimeLine MX",
+      "slug": "timeline-mx",
+      "parameter_count": 9
+    },
+    {
+      "id": 9,
+      "brand": "Strymon",
+      "name": "BigSky MX",
+      "slug": "bigsky-mx",
+      "parameter_count": 9
+    },
+    {
+      "id": 10,
+      "brand": "Strymon",
+      "name": "Mobius",
+      "slug": "mobius",
+      "parameter_count": 6
+    },
+    {
+      "id": 30,
+      "brand": "Strymon",
+      "name": "BigSky",
+      "slug": "bigsky",
+      "parameter_count": 8
+    },
+    {
+      "id": 31,
+      "brand": "Strymon",
+      "name": "Iridium",
+      "slug": "iridium",
+      "parameter_count": 9
+    },
+    {
+      "id": 32,
+      "brand": "Eventide",
+      "name": "H90 Harmonizer",
+      "slug": "h90",
+      "parameter_count": 7
+    },
+    {
+      "id": 50,
+      "brand": "Line 6",
+      "name": "DL4 MkII",
+      "slug": "dl4-mkii",
+      "parameter_count": 8
+    },
+    {
+      "id": 63,
+      "brand": "BOSS",
+      "name": "IR-2",
+      "slug": "boss-ir-2",
+      "parameter_count": 7
+    },
+    {
+      "id": 64,
+      "brand": "BOSS",
+      "name": "IR-200",
+      "slug": "boss-ir-200",
+      "parameter_count": 8
+    },
+    {
+      "id": 65,
+      "brand": "BOSS",
+      "name": "DD-500",
+      "slug": "boss-dd-500",
+      "parameter_count": 8
+    },
+    {
+      "id": 66,
+      "brand": "BOSS",
+      "name": "RV-500",
+      "slug": "boss-rv-500",
+      "parameter_count": 6
+    },
+    {
+      "id": 67,
+      "brand": "BOSS",
+      "name": "MD-500",
+      "slug": "boss-md-500",
+      "parameter_count": 6
+    },
+    {
+      "id": 75,
+      "brand": "Strymon",
+      "name": "NightSky",
+      "slug": "nightsky",
+      "parameter_count": 16
+    },
+    {
+      "id": 76,
+      "brand": "Strymon",
+      "name": "Volante",
+      "slug": "volante",
+      "parameter_count": 11
+    },
+    {
+      "id": 77,
+      "brand": "Strymon",
+      "name": "Cloudburst",
+      "slug": "cloudburst",
+      "parameter_count": 6
+    },
+    {
+      "id": 78,
+      "brand": "Strymon",
+      "name": "Compadre",
+      "slug": "compadre",
+      "parameter_count": 7
+    },
+    {
+      "id": 79,
+      "brand": "Strymon",
+      "name": "Deco V2",
+      "slug": "deco-v2",
+      "parameter_count": 7
+    },
+    {
+      "id": 80,
+      "brand": "Strymon",
+      "name": "DIG V2",
+      "slug": "dig-v2",
+      "parameter_count": 8
+    },
+    {
+      "id": 82,
+      "brand": "Strymon",
+      "name": "Flint V2",
+      "slug": "flint-v2",
+      "parameter_count": 8
+    },
+    {
+      "id": 83,
+      "brand": "Strymon",
+      "name": "Lex V2",
+      "slug": "lex-v2",
+      "parameter_count": 7
+    },
+    {
+      "id": 84,
+      "brand": "Strymon",
+      "name": "Riverside",
+      "slug": "riverside",
+      "parameter_count": 8
+    },
+    {
+      "id": 85,
+      "brand": "Strymon",
+      "name": "Sunset",
+      "slug": "sunset",
+      "parameter_count": 10
+    },
+    {
+      "id": 86,
+      "brand": "Strymon",
+      "name": "Zelzah",
+      "slug": "zelzah",
+      "parameter_count": 8
+    },
+    {
+      "id": 87,
+      "brand": "Strymon",
+      "name": "blueSky V2",
+      "slug": "bluesky-v2",
+      "parameter_count": 9
+    },
+    {
+      "id": 88,
+      "brand": "Strymon",
+      "name": "Brig",
+      "slug": "brig",
+      "parameter_count": 7
+    },
+    {
+      "id": 89,
+      "brand": "Strymon",
+      "name": "EC-1",
+      "slug": "ec-1",
+      "parameter_count": 7
+    },
+    {
+      "id": 90,
+      "brand": "Strymon",
+      "name": "Ultraviolet",
+      "slug": "ultraviolet",
+      "parameter_count": 5
+    },
+    {
+      "id": 95,
+      "brand": "Eventide",
+      "name": "H9 Harmonizer Gen 2",
+      "slug": "h9-gen2",
+      "parameter_count": 6
+    },
+    {
+      "id": 96,
+      "brand": "Eventide",
+      "name": "H9 Max",
+      "slug": "h9-max",
+      "parameter_count": 7
+    },
+    {
+      "id": 97,
+      "brand": "Eventide",
+      "name": "Knife Drop",
+      "slug": "knife-drop",
+      "parameter_count": 8
+    },
+    {
+      "id": 98,
+      "brand": "Eventide",
+      "name": "Riptide",
+      "slug": "riptide",
+      "parameter_count": 9
+    },
+    {
+      "id": 99,
+      "brand": "Eventide",
+      "name": "Blackhole Pedal",
+      "slug": "blackhole-pedal",
+      "parameter_count": 11
+    },
+    {
+      "id": 100,
+      "brand": "Eventide",
+      "name": "TriceraChorus",
+      "slug": "tricerachorus",
+      "parameter_count": 8
+    },
+    {
+      "id": 101,
+      "brand": "Eventide",
+      "name": "UltraTap",
+      "slug": "ultratap",
+      "parameter_count": 10
+    },
+    {
+      "id": 102,
+      "brand": "Eventide",
+      "name": "MicroPitch Delay",
+      "slug": "micropitch-delay",
+      "parameter_count": 10
+    },
+    {
+      "id": 103,
+      "brand": "Eventide",
+      "name": "Space",
+      "slug": "eventide-space",
+      "parameter_count": 8
+    },
+    {
+      "id": 104,
+      "brand": "Eventide",
+      "name": "TimeFactor",
+      "slug": "timefactor",
+      "parameter_count": 9
+    },
+    {
+      "id": 105,
+      "brand": "Eventide",
+      "name": "PitchFactor",
+      "slug": "pitchfactor",
+      "parameter_count": 9
+    },
+    {
+      "id": 106,
+      "brand": "Eventide",
+      "name": "ModFactor",
+      "slug": "modfactor",
+      "parameter_count": 9
+    },
+    {
+      "id": 107,
+      "brand": "Eventide",
+      "name": "Rose",
+      "slug": "eventide-rose",
+      "parameter_count": 9
+    },
+    {
+      "id": 149,
+      "brand": "Line 6",
+      "name": "HX One",
+      "slug": "line-6-hx-one",
+      "parameter_count": 8
+    },
+    {
+      "id": 150,
+      "brand": "Ibanez",
+      "name": "TS9 Tube Screamer",
+      "slug": "ibanez-ts9-tube-screamer",
+      "parameter_count": 3
+    },
+    {
+      "id": 151,
+      "brand": "BOSS",
+      "name": "DS-1 Distortion",
+      "slug": "boss-ds-1-distortion",
+      "parameter_count": 3
+    },
+    {
+      "id": 152,
+      "brand": "BOSS",
+      "name": "SD-1 SUPER OverDrive",
+      "slug": "boss-sd-1-super-overdrive",
+      "parameter_count": 3
+    },
+    {
+      "id": 153,
+      "brand": "BOSS",
+      "name": "BD-2 Blues Driver",
+      "slug": "boss-bd-2-blues-driver",
+      "parameter_count": 3
+    },
+    {
+      "id": 154,
+      "brand": "BOSS",
+      "name": "CH-1 Super Chorus",
+      "slug": "boss-ch-1-super-chorus",
+      "parameter_count": 4
+    },
+    {
+      "id": 155,
+      "brand": "BOSS",
+      "name": "DD-8 Digital Delay",
+      "slug": "boss-dd-8-digital-delay",
+      "parameter_count": 5
+    },
+    {
+      "id": 156,
+      "brand": "MXR",
+      "name": "Phase 90",
+      "slug": "mxr-phase-90",
+      "parameter_count": 1
+    },
+    {
+      "id": 157,
+      "brand": "MXR",
+      "name": "Carbon Copy Analog Delay",
+      "slug": "mxr-carbon-copy-analog-delay",
+      "parameter_count": 6
+    },
+    {
+      "id": 158,
+      "brand": "Electro-Harmonix",
+      "name": "Nano Big Muff Pi",
+      "slug": "electro-harmonix-nano-big-muff-pi",
+      "parameter_count": 3
+    },
+    {
+      "id": 159,
+      "brand": "Electro-Harmonix",
+      "name": "Deluxe Big Muff Pi",
+      "slug": "electro-harmonix-deluxe-big-muff-pi",
+      "parameter_count": 9
+    },
+    {
+      "id": 160,
+      "brand": "Strymon",
+      "name": "El Capistan V2",
+      "slug": "strymon-el-capistan-v2",
+      "parameter_count": 12
+    },
+    {
+      "id": 161,
+      "brand": "Red Panda",
+      "name": "Bitmap 2",
+      "slug": "red-panda-bitmap-2",
+      "parameter_count": 11
+    },
+    {
+      "id": 162,
+      "brand": "Red Panda",
+      "name": "Context 2",
+      "slug": "red-panda-context-2",
+      "parameter_count": 14
+    },
+    {
+      "id": 163,
+      "brand": "Red Panda",
+      "name": "Particle 2",
+      "slug": "red-panda-particle-2",
+      "parameter_count": 12
+    },
+    {
+      "id": 164,
+      "brand": "Red Panda",
+      "name": "Radius",
+      "slug": "red-panda-radius",
+      "parameter_count": 11
+    },
+    {
+      "id": 165,
+      "brand": "Red Panda",
+      "name": "Raster 2",
+      "slug": "red-panda-raster-2",
+      "parameter_count": 13
+    },
+    {
+      "id": 166,
+      "brand": "Red Panda",
+      "name": "RD-1 Pitch Delay",
+      "slug": "red-panda-rd-1-pitch-delay",
+      "parameter_count": 8
+    },
+    {
+      "id": 167,
+      "brand": "Red Panda",
+      "name": "Tensor",
+      "slug": "red-panda-tensor",
+      "parameter_count": 9
+    },
+    {
+      "id": 168,
+      "brand": "Red Panda",
+      "name": "Buffer",
+      "slug": "red-panda-buffer",
+      "parameter_count": 1
+    },
+    {
+      "id": 169,
+      "brand": "Red Panda",
+      "name": "Mixer",
+      "slug": "red-panda-mixer",
+      "parameter_count": 3
+    }
+  ],
+  "pedals_needing_parameter_research": []
+}

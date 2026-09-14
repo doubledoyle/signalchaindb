@@ -1,0 +1,419 @@
+{
+  "generated_at": "2026-09-09T23:25:55",
+  "policy": {
+    "priority_1": "Physical/audio units and manufacturer measurements",
+    "priority_2": "Meaningful musician-facing behavior",
+    "priority_3": "Normalized control position only when necessary",
+    "priority_4": "MIDI metadata last",
+    "fabricated_values": false
+  },
+  "products": [
+    {
+      "product_id": 7,
+      "brand": "Strymon",
+      "name": "TimeLine",
+      "slug": "timeline",
+      "official_sources": [
+        "https://www.strymon.net/product/timeline/"
+      ],
+      "parameter_count": 10
+    },
+    {
+      "product_id": 8,
+      "brand": "Strymon",
+      "name": "TimeLine MX",
+      "slug": "timeline-mx",
+      "official_sources": [
+        "https://www.strymon.net/product/timeline-mx/",
+        "https://www.strymon.net/faq/what-are-the-delay-time-ranges-for-timeline-mx/"
+      ],
+      "parameter_count": 9
+    },
+    {
+      "product_id": 9,
+      "brand": "Strymon",
+      "name": "BigSky MX",
+      "slug": "bigsky-mx",
+      "official_sources": [
+        "https://www.strymon.net/product/bigsky-mx/"
+      ],
+      "parameter_count": 9
+    },
+    {
+      "product_id": 10,
+      "brand": "Strymon",
+      "name": "Mobius",
+      "slug": "mobius",
+      "official_sources": [
+        "https://www.strymon.net/product/mobius/"
+      ],
+      "parameter_count": 6
+    },
+    {
+      "product_id": 30,
+      "brand": "Strymon",
+      "name": "BigSky",
+      "slug": "bigsky",
+      "official_sources": [
+        "https://www.strymon.net/product/bigsky/"
+      ],
+      "parameter_count": 8
+    },
+    {
+      "product_id": 31,
+      "brand": "Strymon",
+      "name": "Iridium",
+      "slug": "iridium",
+      "official_sources": [
+        "https://www.strymon.net/product/iridium/"
+      ],
+      "parameter_count": 9
+    },
+    {
+      "product_id": 32,
+      "brand": "Eventide",
+      "name": "H90 Harmonizer",
+      "slug": "h90",
+      "official_sources": [
+        "https://cdn.eventideaudio.com/manuals/h90/"
+      ],
+      "parameter_count": 7
+    },
+    {
+      "product_id": 50,
+      "brand": "Line 6",
+      "name": "DL4 MkII",
+      "slug": "dl4-mkii",
+      "official_sources": [
+        "https://line6.com/effects-pedals/dl4-mkii/"
+      ],
+      "parameter_count": 8
+    },
+    {
+      "product_id": 63,
+      "brand": "BOSS",
+      "name": "IR-2",
+      "slug": "boss-ir-2",
+      "official_sources": [
+        "https://www.boss.info/us/products/ir-2/",
+        "https://www.boss.info/us/support/by_product/ir-2/"
+      ],
+      "parameter_count": 7
+    },
+    {
+      "product_id": 64,
+      "brand": "BOSS",
+      "name": "IR-200",
+      "slug": "boss-ir-200",
+      "official_sources": [
+        "https://www.boss.info/us/products/ir-200/"
+      ],
+      "parameter_count": 8
+    },
+    {
+      "product_id": 65,
+      "brand": "BOSS",
+      "name": "DD-500",
+      "slug": "boss-dd-500",
+      "official_sources": [
+        "https://www.boss.info/us/support/by_product/dd-500/"
+      ],
+      "parameter_count": 8
+    },
+    {
+      "product_id": 66,
+      "brand": "BOSS",
+      "name": "RV-500",
+      "slug": "boss-rv-500",
+      "official_sources": [
+        "https://www.boss.info/us/products/rv-500/"
+      ],
+      "parameter_count": 6
+    },
+    {
+      "product_id": 67,
+      "brand": "BOSS",
+      "name": "MD-500",
+      "slug": "boss-md-500",
+      "official_sources": [
+        "https://www.boss.info/us/products/md-500/"
+      ],
+      "parameter_count": 6
+    },
+    {
+      "product_id": 75,
+      "brand": "Strymon",
+      "name": "NightSky",
+      "slug": "nightsky",
+      "official_sources": [
+        "https://www.strymon.net/product/nightsky/",
+        "https://www.strymon.net/support/nightsky/"
+      ],
+      "parameter_count": 16
+    },
+    {
+      "product_id": 76,
+      "brand": "Strymon",
+      "name": "Volante",
+      "slug": "volante",
+      "official_sources": [
+        "https://www.strymon.net/product/volante/",
+        "https://www.strymon.net/faq/how-set-delay-time-volante/"
+      ],
+      "parameter_count": 11
+    },
+    {
+      "product_id": 77,
+      "brand": "Strymon",
+      "name": "Cloudburst",
+      "slug": "cloudburst",
+      "official_sources": [
+        "https://www.strymon.net/product/cloudburst/"
+      ],
+      "parameter_count": 6
+    },
+    {
+      "product_id": 78,
+      "brand": "Strymon",
+      "name": "Compadre",
+      "slug": "compadre",
+      "official_sources": [
+        "https://www.strymon.net/product/compadre/"
+      ],
+      "parameter_count": 7
+    },
+    {
+      "product_id": 79,
+      "brand": "Strymon",
+      "name": "Deco V2",
+      "slug": "deco-v2",
+      "official_sources": [
+        "https://www.strymon.net/product/deco/"
+      ],
+      "parameter_count": 7
+    },
+    {
+      "product_id": 80,
+      "brand": "Strymon",
+      "name": "DIG V2",
+      "slug": "dig-v2",
+      "official_sources": [
+        "https://www.strymon.net/product/dig/",
+        "https://www.strymon.net/faq/what-is-the-delay-time-range-for-dig/"
+      ],
+      "parameter_count": 8
+    },
+    {
+      "product_id": 82,
+      "brand": "Strymon",
+      "name": "Flint V2",
+      "slug": "flint-v2",
+      "official_sources": [
+        "https://www.strymon.net/product/flint/"
+      ],
+      "parameter_count": 8
+    },
+    {
+      "product_id": 83,
+      "brand": "Strymon",
+      "name": "Lex V2",
+      "slug": "lex-v2",
+      "official_sources": [
+        "https://www.strymon.net/product/lex/"
+      ],
+      "parameter_count": 7
+    },
+    {
+      "product_id": 84,
+      "brand": "Strymon",
+      "name": "Riverside",
+      "slug": "riverside",
+      "official_sources": [
+        "https://www.strymon.net/product/riverside/"
+      ],
+      "parameter_count": 8
+    },
+    {
+      "product_id": 85,
+      "brand": "Strymon",
+      "name": "Sunset",
+      "slug": "sunset",
+      "official_sources": [
+        "https://www.strymon.net/product/sunset/"
+      ],
+      "parameter_count": 10
+    },
+    {
+      "product_id": 86,
+      "brand": "Strymon",
+      "name": "Zelzah",
+      "slug": "zelzah",
+      "official_sources": [
+        "https://www.strymon.net/product/zelzah/"
+      ],
+      "parameter_count": 8
+    },
+    {
+      "product_id": 89,
+      "brand": "Strymon",
+      "name": "EC-1",
+      "slug": "ec-1",
+      "official_sources": [
+        "https://www.strymon.net/product/ec-1/",
+        "https://www.strymon.net/manuals/EC-1_UserManual_RevB.pdf"
+      ],
+      "parameter_count": 7
+    },
+    {
+      "product_id": 90,
+      "brand": "Strymon",
+      "name": "Ultraviolet",
+      "slug": "ultraviolet",
+      "official_sources": [
+        "https://www.strymon.net/product/ultraviolet/"
+      ],
+      "parameter_count": 5
+    },
+    {
+      "product_id": 95,
+      "brand": "Eventide",
+      "name": "H9 Harmonizer Gen 2",
+      "slug": "h9-gen2",
+      "official_sources": [
+        "https://cdn.eventideaudio.com/manuals/h9/"
+      ],
+      "parameter_count": 6
+    },
+    {
+      "product_id": 96,
+      "brand": "Eventide",
+      "name": "H9 Max",
+      "slug": "h9-max",
+      "official_sources": [
+        "https://www.eventideaudio.com/pedals/h9-max/"
+      ],
+      "parameter_count": 7
+    },
+    {
+      "product_id": 97,
+      "brand": "Eventide",
+      "name": "Knife Drop",
+      "slug": "knife-drop",
+      "official_sources": [
+        "https://www.eventideaudio.com/pedals/knife-drop/"
+      ],
+      "parameter_count": 8
+    },
+    {
+      "product_id": 98,
+      "brand": "Eventide",
+      "name": "Riptide",
+      "slug": "riptide",
+      "official_sources": [
+        "https://www.eventideaudio.com/pedals/riptide/",
+        "https://cdn.eventideaudio.com/uploads/2023/10/Riptide-QRG-Web.pdf"
+      ],
+      "parameter_count": 9
+    },
+    {
+      "product_id": 99,
+      "brand": "Eventide",
+      "name": "Blackhole Pedal",
+      "slug": "blackhole-pedal",
+      "official_sources": [
+        "https://www.eventideaudio.com/pedals/blackhole/"
+      ],
+      "parameter_count": 11
+    },
+    {
+      "product_id": 100,
+      "brand": "Eventide",
+      "name": "TriceraChorus",
+      "slug": "tricerachorus",
+      "official_sources": [
+        "https://www.eventideaudio.com/pedals/tricerachorus/"
+      ],
+      "parameter_count": 8
+    },
+    {
+      "product_id": 101,
+      "brand": "Eventide",
+      "name": "UltraTap",
+      "slug": "ultratap",
+      "official_sources": [
+        "https://www.eventideaudio.com/pedals/ultratap/"
+      ],
+      "parameter_count": 10
+    },
+    {
+      "product_id": 102,
+      "brand": "Eventide",
+      "name": "MicroPitch Delay",
+      "slug": "micropitch-delay",
+      "official_sources": [
+        "https://cdn.eventideaudio.com/uploads/2021/10/MicroPitchDelay-QRG-Web.pdf"
+      ],
+      "parameter_count": 10
+    },
+    {
+      "product_id": 103,
+      "brand": "Eventide",
+      "name": "Space",
+      "slug": "eventide-space",
+      "official_sources": [
+        "https://www.eventideaudio.com/downloads/?product=Space"
+      ],
+      "parameter_count": 8
+    },
+    {
+      "product_id": 104,
+      "brand": "Eventide",
+      "name": "TimeFactor",
+      "slug": "timefactor",
+      "official_sources": [
+        "https://www.eventideaudio.com/downloads/?product=TimeFactor"
+      ],
+      "parameter_count": 9
+    },
+    {
+      "product_id": 105,
+      "brand": "Eventide",
+      "name": "PitchFactor",
+      "slug": "pitchfactor",
+      "official_sources": [
+        "https://www.eventideaudio.com/downloads/?product=PitchFactor"
+      ],
+      "parameter_count": 9
+    },
+    {
+      "product_id": 106,
+      "brand": "Eventide",
+      "name": "ModFactor",
+      "slug": "modfactor",
+      "official_sources": [
+        "https://www.eventideaudio.com/downloads/?product=ModFactor"
+      ],
+      "parameter_count": 9
+    },
+    {
+      "product_id": 107,
+      "brand": "Eventide",
+      "name": "Rose",
+      "slug": "eventide-rose",
+      "official_sources": [
+        "https://www.eventideaudio.com/pedals/rose/"
+      ],
+      "parameter_count": 9
+    },
+    {
+      "product_id": 149,
+      "brand": "Line 6",
+      "name": "HX One",
+      "slug": "line-6-hx-one",
+      "official_sources": [
+        "https://line6.com/hx-one/"
+      ],
+      "parameter_count": 8
+    }
+  ]
+}
