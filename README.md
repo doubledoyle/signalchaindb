@@ -11,6 +11,7 @@ Production-oriented Next.js starter for SignalChainDB.
 - `/compatibility` checker
 - early `/rig-builder`
 - source/confidence labels
+- product image metadata support (`image_url`, `image_source`, `image_credit`)
 - Supabase/Postgres migration starter
 - `.env.example` for the eventual Supabase connection
 - React 19.2.7 + Next.js 16.3.3 (Active LTS)
@@ -21,6 +22,16 @@ npm install
 npm run dev
 ```
 Then open http://localhost:3000.
+
+## Product images
+Product records can optionally include:
+- `image_url` — local `/public/...` path or hosted image URL
+- `image_source` — page where the image originated
+- `image_credit` — manufacturer/photographer/source credit
+
+The catalog renders a branded placeholder when no image has been added yet, so image coverage can be expanded gradually without breaking the UI.
+
+For production, prefer optimized WebP/AVIF files stored separately from the JSON dataset, with only image metadata kept in product records. Use images you have permission to publish and preserve source/credit information.
 
 ## Why local JSON first?
 It lets the site build and deploy immediately while the production Supabase project is being created. The UI is deliberately isolated from storage so `lib/data.ts` can later be swapped to server-side Supabase queries without rebuilding the product.
