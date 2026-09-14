@@ -1,6 +1,8 @@
 import raw from "@/data/signalchain.json";
+import {productImages} from "@/data/product-images";
 import type {Product,Compatibility,Source,PowerSupplyOutput,Port,EffectParameter,ParameterMeasurement} from "./types";
-export const products=raw.products as Product[];
+const baseProducts=raw.products as Product[];
+export const products=baseProducts.map(product=>({...product,...productImages[product.slug]}));
 export const compatibility=raw.compatibility as Compatibility[];
 export const sources=raw.sources as Source[];
 export const powerOutputs=(raw.power_outputs || []) as PowerSupplyOutput[];
