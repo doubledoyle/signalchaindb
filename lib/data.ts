@@ -33,6 +33,11 @@ const specialImageOverrides:Record<string,{image_url?:string;image_source?:strin
     image_url:"https://images.squarespace-cdn.com/content/v1/57cebe2c03596e075fca5f24/1629217579784-K9S24HMCHRSI91VQO5VR/Hizumitas-Fuzz-Sustainar.jpg",
     image_source:"https://www.earthquakerdevices.com/hizumitas",
     image_credit:"EarthQuaker Devices"
+  },
+  "boss-md-500":{
+    image_url:"https://static.roland.com/assets/images/products/main/md-500_main.jpg",
+    image_source:"https://www.boss.info/us/products/md-500/",
+    image_credit:"BOSS / Roland"
   }
 };
 
