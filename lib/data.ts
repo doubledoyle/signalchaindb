@@ -58,6 +58,11 @@ const specialImageOverrides:Record<string,{image_url?:string;image_source?:strin
     image_url:"https://media.sweetwater.com/m/products/image/e8ac8fd67cSgIPPhe16AMYR0gZs9icj2g3lHrXno.jpg?ha=e8ac8fd67ce4b5695381ddbbe795be3074e4493c&quality=82&width=750",
     image_source:"https://www.sweetwater.com/store/detail/Barn3TeslaTap--barn3-tesla-tap-momentary-footswitch-silver",
     image_credit:"Barn3 / Sweetwater"
+  },
+  "dl4-mkii":{
+    image_url:"https://motorcityguitar.com/cdn/shop/products/Line6_DL4_MkII_DelayModeler_01_1400x.jpg?v=1650113408",
+    image_source:"https://motorcityguitar.com/products/line-6-dl4-mkii-delay-stompbox-modeler-pedal",
+    image_credit:"Line 6 / Motor City Guitar"
   }
 };
 
