@@ -13,6 +13,14 @@ const earthQuakerImages=(earthQuakerEnriched.images || {}) as Record<string,{ima
 const jhsProducts=(jhsEnriched.products || []) as Product[];
 const jhsImages=(jhsEnriched.images || {}) as Record<string,{image_url?:string;image_source?:string;image_credit?:string}>;
 
+const specialImageOverrides:Record<string,{image_url?:string;image_source?:string;image_credit?:string}>={
+  "earthquaker-avalanche-run":{
+    image_url:"https://images.squarespace-cdn.com/content/v1/57cebe2c03596e075fca5f24/1544033064540-9DLWD9Y81ZUENBFL62IW/Avalanche-Run.jpg",
+    image_source:"https://www.earthquakerdevices.com/avalanche-run",
+    image_credit:"EarthQuaker Devices"
+  }
+};
+
 const baseProducts=[...(raw.products as Product[]),...earthQuakerProducts,...jhsProducts];
 const generatedImages=generatedProductImages as Record<string,{image_url?:string;image_source?:string;image_credit?:string}>;
 
@@ -22,7 +30,8 @@ export const products=baseProducts.map(product=>({
   ...generatedImages[product.slug],
   ...earthQuakerImages[product.slug],
   ...jhsImages[product.slug],
-  ...productImages[product.slug]
+  ...productImages[product.slug],
+  ...specialImageOverrides[product.slug]
 }));
 
 export const compatibility=raw.compatibility as Compatibility[];
