@@ -43,6 +43,16 @@ const specialImageOverrides:Record<string,{image_url?:string;image_source?:strin
     image_url:"https://m.media-amazon.com/images/I/81Md4r4yOrL._AC_SL1218_.jpg",
     image_source:"https://manuals.plus/asin/B072XMT5B4",
     image_credit:"BOSS / Amazon"
+  },
+  "eventide-powermax":{
+    image_url:"https://media.sweetwater.com/m/products/image/869185118fLiEVB7oiNuk1xZPhsF5PNXojXo0esy.jpg?ha=869185118ffd5da8a9760c1cd67a53508f824161&quality=82&width=750",
+    image_source:"https://www.sweetwater.com/store/detail/PowerMAXV2--eventide-powermax-v2-7-pedal-universal-power-supply-by-cioks",
+    image_credit:"Eventide / Sweetwater"
+  },
+  "eventide-powermini":{
+    image_url:"https://media.sweetwater.com/m/products/image/af1f3b2a42XeE397VutwQTNBRZSJ4qCGNBkdEINZ.jpg?ha=af1f3b2a4233b78496228adf886fd073e719aeda&quality=82&width=750",
+    image_source:"https://www.sweetwater.com/store/detail/PowerMini--eventide-powermini-compact-universal-power-supply-by-cioks",
+    image_credit:"Eventide / Sweetwater"
   }
 };
 
