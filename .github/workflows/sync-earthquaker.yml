@@ -1,11 +1,6 @@
 name: Sync EarthQuaker research
 on:
   workflow_dispatch:
-  push:
-    branches: [feature/earthquaker-devices]
-    paths:
-      - scripts/sync-earthquaker.py
-      - .github/workflows/sync-earthquaker.yml
 permissions:
   contents: write
 jobs:
