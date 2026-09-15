@@ -1,8 +1,9 @@
 import raw from "@/data/signalchain.json";
 import generatedProductImages from "@/data/product-images.generated.json";
 import {productImages} from "@/data/product-images";
+import {earthQuakerProducts} from "@/data/earthquaker-products";
 import type {Product,Compatibility,Source,PowerSupplyOutput,Port,EffectParameter,ParameterMeasurement} from "./types";
-const baseProducts=raw.products as Product[];
+const baseProducts=[...(raw.products as Product[]),...earthQuakerProducts];
 const generatedImages=generatedProductImages as Record<string,{image_url?:string;image_source?:string;image_credit?:string}>;
 export const products=baseProducts.map(product=>({...product,...generatedImages[product.slug],...productImages[product.slug]}));
 export const compatibility=raw.compatibility as Compatibility[];
@@ -19,4 +20,4 @@ export const productRelations=(id:number)=>compatibility.filter(r=>r.source_id==
 export const productPorts=(id:number)=>ports.filter(p=>p.product_id===id);
 export const productEffectParameters=(id:number)=>effectParameters.filter(p=>p.product_id===id);
 export const measurementsForParameter=(id:number)=>parameterMeasurements.filter(m=>m.parameter_id===id);
-export const stats={products:products.length,brands:brands.length,relations:compatibility.length,verified:products.filter(p=>p.verification_status==='verified').length,sources:sources.length};
+export const stats={products:products.length,brands:new Set(products.map(p=>p.brand)).size,relations:compatibility.length,verified:products.filter(p=>p.verification_status==='verified').length,sources:sources.length};
