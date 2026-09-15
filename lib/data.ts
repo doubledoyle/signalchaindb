@@ -53,6 +53,11 @@ const specialImageOverrides:Record<string,{image_url?:string;image_source?:strin
     image_url:"https://media.sweetwater.com/m/products/image/af1f3b2a42XeE397VutwQTNBRZSJ4qCGNBkdEINZ.jpg?ha=af1f3b2a4233b78496228adf886fd073e719aeda&quality=82&width=750",
     image_source:"https://www.sweetwater.com/store/detail/PowerMini--eventide-powermini-compact-universal-power-supply-by-cioks",
     image_credit:"Eventide / Sweetwater"
+  },
+  "eventide-tesla":{
+    image_url:"https://media.sweetwater.com/m/products/image/e8ac8fd67cSgIPPhe16AMYR0gZs9icj2g3lHrXno.jpg?ha=e8ac8fd67ce4b5695381ddbbe795be3074e4493c&quality=82&width=750",
+    image_source:"https://www.sweetwater.com/store/detail/Barn3TeslaTap--barn3-tesla-tap-momentary-footswitch-silver",
+    image_credit:"Barn3 / Sweetwater"
   }
 };
 
