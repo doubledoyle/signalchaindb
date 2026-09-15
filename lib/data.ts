@@ -38,6 +38,11 @@ const specialImageOverrides:Record<string,{image_url?:string;image_source?:strin
     image_url:"https://media.guitarcenter.com/is/image/MMGS7/J82771000000000-01-600x600.jpg",
     image_source:"https://www.guitarcenter.com/BOSS/MD-500-Modulation-Effects-Pedal-1500000093309.gc",
     image_credit:"BOSS / Guitar Center"
+  },
+  "boss-rv-500":{
+    image_url:"https://m.media-amazon.com/images/I/81Md4r4yOrL._AC_SL1218_.jpg",
+    image_source:"https://manuals.plus/asin/B072XMT5B4",
+    image_credit:"BOSS / Amazon"
   }
 };
 
