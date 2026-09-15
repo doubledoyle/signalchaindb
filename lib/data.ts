@@ -28,6 +28,11 @@ const specialImageOverrides:Record<string,{image_url?:string;image_source?:strin
     image_url:"https://images.squarespace-cdn.com/content/v1/57cebe2c03596e075fca5f24/1480115994487-QNTRKSPU8V0OXKD1RECW/Fuzz-Master-General-2.jpg",
     image_source:"https://www.earthquakerdevices.com/fuzz-master-general",
     image_credit:"EarthQuaker Devices"
+  },
+  "earthquaker-hizumitas":{
+    image_url:"https://images.squarespace-cdn.com/content/v1/57cebe2c03596e075fca5f24/1629217579784-K9S24HMCHRSI91VQO5VR/Hizumitas-Fuzz-Sustainar.jpg",
+    image_source:"https://www.earthquakerdevices.com/hizumitas",
+    image_credit:"EarthQuaker Devices"
   }
 };
 
