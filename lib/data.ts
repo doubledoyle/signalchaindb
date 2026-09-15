@@ -23,6 +23,11 @@ const specialImageOverrides:Record<string,{image_url?:string;image_source?:strin
     image_url:"https://media.sweetwater.com/m/products/image/8a8f5204beRIGEAReC750nZKSiMDXPNuoXZ0SFUj.jpg?ha=8a8f5204be1da4a000c215ce33c4ac5206e5c9b8&quality=82&width=750",
     image_source:"https://www.sweetwater.com/store/detail/Gary--earthquaker-devices-gary-automatic-pulse-width-modulation-fuzz-overdrive-pedal",
     image_credit:"EarthQuaker Devices / Sweetwater"
+  },
+  "earthquaker-fuzz-master-general-legacy-reissue":{
+    image_url:"https://images.squarespace-cdn.com/content/v1/57cebe2c03596e075fca5f24/1480115994487-QNTRKSPU8V0OXKD1RECW/Fuzz-Master-General-2.jpg",
+    image_source:"https://www.earthquakerdevices.com/fuzz-master-general",
+    image_credit:"EarthQuaker Devices"
   }
 };
 
