@@ -1,11 +1,6 @@
 name: Sync JHS research
 on:
   workflow_dispatch:
-  push:
-    branches: [feature/jhs-pedals]
-    paths:
-      - scripts/sync-jhs.py
-      - .github/workflows/sync-jhs.yml
 permissions:
   contents: write
 jobs:
