@@ -18,6 +18,11 @@ const specialImageOverrides:Record<string,{image_url?:string;image_source?:strin
     image_url:"https://images.squarespace-cdn.com/content/v1/57cebe2c03596e075fca5f24/1544033064540-9DLWD9Y81ZUENBFL62IW/Avalanche-Run.jpg",
     image_source:"https://www.earthquakerdevices.com/avalanche-run",
     image_credit:"EarthQuaker Devices"
+  },
+  "earthquaker-gary":{
+    image_url:"https://media.sweetwater.com/m/products/image/8a8f5204beRIGEAReC750nZKSiMDXPNuoXZ0SFUj.jpg?ha=8a8f5204be1da4a000c215ce33c4ac5206e5c9b8&quality=82&width=750",
+    image_source:"https://www.sweetwater.com/store/detail/Gary--earthquaker-devices-gary-automatic-pulse-width-modulation-fuzz-overdrive-pedal",
+    image_credit:"EarthQuaker Devices / Sweetwater"
   }
 };
 
