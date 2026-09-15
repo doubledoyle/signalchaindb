@@ -22,9 +22,10 @@ PRODUCTS = [
 
 ALIASES = {
     "a b box": "/ab-box",
+    "disaster transport legacy reissue": "/disaster-transport-reissue",
     "passive aby box": "/passive-aby-box",
-    "sunn o halflife": "/sunn-o-halflife",
-    "sunn o life pedal": "/sunn-o-life-pedal",
+    "sunn o halflife": "/half-life",
+    "sunn o life pedal": "/life-pedal",
     "zeqd pre": "/zeqd-pre",
 }
 
@@ -102,13 +103,12 @@ def section_text(soup: BeautifulSoup, heading_name: str) -> list[str]:
 
 def tech(text: str) -> dict:
     result = {}
-    m = re.search(r"Dimensions\s*([0-9.]+)\s*x\s*([0-9.]+)\s*x\s*([0-9.]+)\s*in\.?\s*\(([0-9.]+)\s*x\s*([0-9.]+)\s*x\s*([0-9.]+)\s*mm\)", text, re.I)
+    m = re.search(r"(?:Dimensions|Measures)\s*:?\s*([0-9.]+)\s*x\s*([0-9.]+)\s*x\s*([0-9.]+)\s*in\.?\s*\(([0-9.]+)\s*x\s*([0-9.]+)\s*x\s*([0-9.]+)\s*mm\)", text, re.I)
     if m:
-        # EQD writes L x W x H; map site Product fields to width x depth x height.
         result["depth_mm"] = float(m.group(4))
         result["width_mm"] = float(m.group(5))
         result["height_mm"] = float(m.group(6))
-    m = re.search(r"Current Draw\s*([0-9.]+)\s*mA", text, re.I)
+    m = re.search(r"Current Draw\s*:?\s*([0-9.]+)\s*mA", text, re.I)
     if m:
         result["current_ma"] = int(float(m.group(1)))
     if re.search(r"standard\s+9\s*volt\s+DC", text, re.I):
@@ -117,11 +117,18 @@ def tech(text: str) -> dict:
         result["polarity"] = "center-negative"
     if re.search(r"2\.1\s*mm", text, re.I):
         result["power_connector"] = "2.1 mm barrel"
-    p = re.search(r"Power\s+(.*?)(?:DO NOT RUN AT HIGHER VOLTAGES!|Artwork|OPERATION MANUAL|LIFETIME WARRANTY)", text, re.I|re.S)
-    if p:
-        clean = re.sub(r"\s+", " ", p.group(1)).strip()
-        result["power_notes"] = clean[:650]
+    if result.get("voltage_v") == 9.0 and result.get("polarity") == "center-negative":
+        result["power_notes"] = "Standard 9 V DC power. 2.1 mm center-negative barrel where published by EarthQuaker Devices. Do not run at higher voltages."
     return result
+
+def parse_control_line(t: str):
+    m = re.match(r"^(?:\d+[.)]\s*)?([A-Za-z][A-Za-z0-9 /+&'’-]{1,35})(?:\s*\([^)]*\))?\s*[:–-]\s*(.+)$", t)
+    if m:
+        return m.group(1).strip(), m.group(2).strip()
+    m = re.match(r"^(?:The\s+)?([A-Za-z][A-Za-z0-9 /+&'’-]{1,30})(?:\s*\([^)]*\))?\s+(?:control\s+)?(?:sets|controls|adjusts|selects|is|blends|determines)\s+(.+)$", t, re.I)
+    if m:
+        return m.group(1).strip(), m.group(2).strip()
+    return None
 
 def control_params(product_id: int, items: list[str], start_id: int) -> tuple[list[dict], int]:
     out = []
@@ -130,11 +137,10 @@ def control_params(product_id: int, items: list[str], start_id: int) -> tuple[li
         t = re.sub(r"\s+", " ", t).strip()
         if len(t) < 4 or len(t) > 650:
             continue
-        # Prefer manufacturer entries that look like named controls.
-        m = re.match(r"^(?:\d+[.)]\s*)?([A-Za-z][A-Za-z0-9 /+&'’-]{1,35})(?:\s*\([^)]*\))?\s*[:–-]\s*(.+)$", t)
-        if not m:
+        parsed = parse_control_line(t)
+        if not parsed:
             continue
-        name, note = m.group(1).strip(), m.group(2).strip()
+        name, note = parsed
         if norm(name) in {"audio samples","guitar samples","bass samples","synth samples","tech specs","power","dimensions","current draw"}:
             continue
         key = norm(name)
@@ -150,7 +156,7 @@ def control_params(product_id: int, items: list[str], start_id: int) -> tuple[li
         elif any(x in key for x in ["depth"]): family = "depth"
         elif any(x in key for x in ["tone","treble","bass","mid","frequency","freq","filter"]): family = "tone"
         elif any(x in key for x in ["gain","drive","fuzz","distortion"]): family = "gain"
-        elif any(x in key for x in ["level","volume","output"]): family = "level"
+        elif any(x in key for x in ["level","volume","output","amplitude","magnitude"]): family = "level"
         elif "reverb" in key or "decay" in key: family = "reverb"
         elif "pitch" in key or "octave" in key: family = "pitch"
         out.append({
@@ -188,7 +194,6 @@ def main() -> None:
             r = get(url)
             soup = BeautifulSoup(r.text, "html.parser")
             title = norm(soup.title.get_text(" ", strip=True) if soup.title else "")
-            # Reject obviously wrong fallback pages.
             if compact(name).replace("legacyreissue", "")[:8] not in compact(title + " " + soup.get_text(" ", strip=True)):
                 raise RuntimeError("page did not appear to match product")
             all_text = soup.get_text(" ", strip=True)
@@ -199,7 +204,6 @@ def main() -> None:
                 "verified_at": str(date.today()),
                 "source_count": 1,
             })
-            # Only promote to verified when source-backed technical data was actually extracted.
             if any(k in fields for k in ("current_ma","voltage_v","width_mm","height_mm")):
                 fields["verification_status"] = "verified"
             products.append(fields)
