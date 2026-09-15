@@ -1,0 +1,29 @@
+name: Sync JHS research
+on:
+  workflow_dispatch:
+  push:
+    branches: [feature/jhs-pedals]
+    paths:
+      - scripts/sync-jhs.py
+      - .github/workflows/sync-jhs.yml
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install scraper dependencies
+        run: pip install requests beautifulsoup4
+      - name: Research JHS catalog
+        run: python scripts/sync-jhs.py
+      - name: Commit generated research
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/jhs-enriched.generated.json
+          git diff --cached --quiet || git commit -m "Generate JHS research data"
+          git push
