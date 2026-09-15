@@ -1,16 +1,36 @@
 import raw from "@/data/signalchain.json";
 import generatedProductImages from "@/data/product-images.generated.json";
+import earthQuakerEnriched from "@/data/earthquaker-enriched.generated.json";
 import {productImages} from "@/data/product-images";
 import {earthQuakerProducts} from "@/data/earthquaker-products";
 import type {Product,Compatibility,Source,PowerSupplyOutput,Port,EffectParameter,ParameterMeasurement} from "./types";
+
+const earthQuakerProductData=(earthQuakerEnriched.products || []) as Array<Partial<Product>&{slug:string}>;
+const earthQuakerProductMap=new Map(earthQuakerProductData.map(product=>[product.slug,product]));
+const earthQuakerImages=(earthQuakerEnriched.images || {}) as Record<string,{image_url?:string;image_source?:string;image_credit?:string}>;
+
 const baseProducts=[...(raw.products as Product[]),...earthQuakerProducts];
 const generatedImages=generatedProductImages as Record<string,{image_url?:string;image_source?:string;image_credit?:string}>;
-export const products=baseProducts.map(product=>({...product,...generatedImages[product.slug],...productImages[product.slug]}));
+
+export const products=baseProducts.map(product=>({
+  ...product,
+  ...earthQuakerProductMap.get(product.slug),
+  ...generatedImages[product.slug],
+  ...earthQuakerImages[product.slug],
+  ...productImages[product.slug]
+}));
+
 export const compatibility=raw.compatibility as Compatibility[];
-export const sources=raw.sources as Source[];
+export const sources=[
+  ...(raw.sources as Source[]),
+  ...((earthQuakerEnriched.sources || []) as Source[])
+];
 export const powerOutputs=(raw.power_outputs || []) as PowerSupplyOutput[];
 export const ports=(raw.ports || []) as Port[];
-export const effectParameters=((raw as any).effect_parameters || []) as EffectParameter[];
+export const effectParameters=[
+  ...(((raw as any).effect_parameters || []) as EffectParameter[]),
+  ...((earthQuakerEnriched.effect_parameters || []) as EffectParameter[])
+];
 export const parameterMeasurements=((raw as any).parameter_measurements || []) as ParameterMeasurement[];
 export const brands=raw.brands;
 export const categories=raw.categories;
