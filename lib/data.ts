@@ -35,9 +35,9 @@ const specialImageOverrides:Record<string,{image_url?:string;image_source?:strin
     image_credit:"EarthQuaker Devices"
   },
   "boss-md-500":{
-    image_url:"https://static.roland.com/assets/images/products/main/md-500_main.jpg",
-    image_source:"https://www.boss.info/us/products/md-500/",
-    image_credit:"BOSS / Roland"
+    image_url:"https://media.guitarcenter.com/is/image/MMGS7/J82771000000000-01-600x600.jpg",
+    image_source:"https://www.guitarcenter.com/BOSS/MD-500-Modulation-Effects-Pedal-1500000093309.gc",
+    image_credit:"BOSS / Guitar Center"
   }
 };
 
