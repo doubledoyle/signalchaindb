@@ -1,10 +1,11 @@
 "use client";
 
-import {useMemo, useState} from "react";
+import {useEffect, useMemo, useState} from "react";
 import type {Product, Compatibility, PowerSupplyOutput} from "@/lib/types";
 import {Badge} from "./Badge";
 
 const prettyType = (value: string) => value.replaceAll("_", " ");
+const RIG_STORAGE_KEY = "signalchaindb:active-rig";
 
 const itemPowerSummary = (product: Product) => {
   const parts: string[] = [];
@@ -112,6 +113,67 @@ export function RigBuilder({
   powerOutputs: PowerSupplyOutput[];
 }) {
   const [selected, setSelected] = useState<number[]>([]);
+  const [rigName, setRigName] = useState("My Rig");
+  const [shareStatus, setShareStatus] = useState("");
+  const [hydrated, setHydrated] = useState(false);
+
+  useEffect(() => {
+    const validIds = new Set(products.map((product) => product.id));
+    const url = new URL(window.location.href);
+    const sharedGear = url.searchParams.get("gear");
+    const sharedName = url.searchParams.get("name");
+
+    if (sharedGear) {
+      const ids = sharedGear
+        .split(",")
+        .map((value) => Number(value))
+        .filter((value) => Number.isInteger(value) && validIds.has(value));
+      setSelected(Array.from(new Set(ids)));
+      if (sharedName) setRigName(sharedName.slice(0, 80));
+    } else {
+      try {
+        const stored = JSON.parse(localStorage.getItem(RIG_STORAGE_KEY) || "null");
+        if (stored?.productIds && Array.isArray(stored.productIds)) {
+          setSelected(stored.productIds.filter((id: number) => validIds.has(id)));
+        }
+        if (typeof stored?.name === "string" && stored.name.trim()) {
+          setRigName(stored.name.slice(0, 80));
+        }
+      } catch {
+        // Ignore malformed local state and start clean.
+      }
+    }
+
+    setHydrated(true);
+  }, [products]);
+
+  useEffect(() => {
+    if (!hydrated) return;
+    localStorage.setItem(
+      RIG_STORAGE_KEY,
+      JSON.stringify({name: rigName.trim() || "My Rig", productIds: selected, updatedAt: new Date().toISOString()}),
+    );
+  }, [hydrated, rigName, selected]);
+
+  const copyShareLink = async () => {
+    const url = new URL("/rig-builder", window.location.origin);
+    if (selected.length) url.searchParams.set("gear", selected.join(","));
+    if (rigName.trim() && rigName.trim() !== "My Rig") url.searchParams.set("name", rigName.trim());
+    try {
+      await navigator.clipboard.writeText(url.toString());
+      setShareStatus("Share link copied.");
+    } catch {
+      setShareStatus(url.toString());
+    }
+    window.setTimeout(() => setShareStatus(""), 3000);
+  };
+
+  const clearRig = () => {
+    setSelected([]);
+    setRigName("My Rig");
+    setShareStatus("Rig cleared.");
+    window.setTimeout(() => setShareStatus(""), 2000);
+  };
 
   const available = products.filter((product) => !selected.includes(product.id));
   const add = (id: number) => setSelected((value) => [...value, id]);
@@ -319,6 +381,27 @@ export function RigBuilder({
 
   return (
     <div className="rig">
+      <div className="rigToolbar">
+        <div className="rigNameField">
+          <label htmlFor="rig-name">Rig name</label>
+          <input
+            id="rig-name"
+            value={rigName}
+            maxLength={80}
+            onChange={(event) => setRigName(event.target.value)}
+            placeholder="My Rig"
+          />
+        </div>
+        <div className="rigToolbarActions">
+          <button className="button ghost" type="button" onClick={copyShareLink}>Share rig</button>
+          <a className="button ghost" href="/account">Cloud saves</a>
+          <button className="button dangerButton" type="button" onClick={clearRig}>Clear</button>
+        </div>
+      </div>
+      <p className="muted small rigSaveNote">
+        Auto-saved in this browser. {shareStatus || "Sign in for cloud saves, or share a read-only rig link."}
+      </p>
+
       <div className="rigAdd">
         <select
           defaultValue=""

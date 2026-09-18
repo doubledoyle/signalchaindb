@@ -1,0 +1,16 @@
+create extension if not exists pgcrypto;
+create table if not exists profiles(id uuid primary key references auth.users(id) on delete cascade,plan text not null default 'free',created_at timestamptz not null default now(),updated_at timestamptz not null default now());
+create table if not exists saved_rigs(id uuid primary key default gen_random_uuid(),user_id uuid not null references auth.users(id) on delete cascade,name text not null default 'My Rig' check(char_length(name) between 1 and 80),product_ids bigint[] not null default '{}',created_at timestamptz not null default now(),updated_at timestamptz not null default now());
+alter table profiles enable row level security;alter table saved_rigs enable row level security;
+drop policy if exists "users read own profile" on profiles;create policy "users read own profile" on profiles for select to authenticated using(auth.uid()=id);
+drop policy if exists "users update own profile" on profiles;
+drop policy if exists "users read own rigs" on saved_rigs;create policy "users read own rigs" on saved_rigs for select to authenticated using(auth.uid()=user_id);
+drop policy if exists "users create own rigs" on saved_rigs;create policy "users create own rigs" on saved_rigs for insert to authenticated with check(auth.uid()=user_id);
+drop policy if exists "users update own rigs" on saved_rigs;create policy "users update own rigs" on saved_rigs for update to authenticated using(auth.uid()=user_id) with check(auth.uid()=user_id);
+drop policy if exists "users delete own rigs" on saved_rigs;create policy "users delete own rigs" on saved_rigs for delete to authenticated using(auth.uid()=user_id);
+grant usage on schema public to authenticated;grant select on profiles to authenticated;grant select,insert,update,delete on saved_rigs to authenticated;
+create or replace function public.handle_new_user() returns trigger language plpgsql security definer set search_path=public as $$ begin insert into public.profiles(id) values(new.id) on conflict(id) do nothing;return new;end;$$;
+drop trigger if exists on_auth_user_created on auth.users;create trigger on_auth_user_created after insert on auth.users for each row execute procedure public.handle_new_user();
+create or replace function public.touch_updated_at() returns trigger language plpgsql as $$ begin new.updated_at=now();return new;end;$$;
+drop trigger if exists touch_profiles_updated_at on profiles;create trigger touch_profiles_updated_at before update on profiles for each row execute procedure public.touch_updated_at();
+drop trigger if exists touch_saved_rigs_updated_at on saved_rigs;create trigger touch_saved_rigs_updated_at before update on saved_rigs for each row execute procedure public.touch_updated_at();

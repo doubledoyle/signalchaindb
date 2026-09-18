@@ -4,6 +4,7 @@ import {notFound} from "next/navigation";
 import {products,productBySlug,productRelations,productPorts,productEffectParameters,measurementsForParameter} from "@/lib/data";
 import {Badge} from "@/components/Badge";
 import {ProductImage} from "@/components/ProductImage";
+import {AffiliatePanel} from "@/components/AffiliatePanel";
 import {mmToIn,pretty} from "@/lib/format";
 import type {Port,EffectParameter} from "@/lib/types";
 
@@ -27,8 +28,19 @@ export default async function ProductPage({params}:{params:Promise<{slug:string}
   const io=productPorts(p.id);
   const paramsData=productEffectParameters(p.id);
   const groups=groupPorts(io);
+  const structuredData={
+    "@context":"https://schema.org",
+    "@type":"Product",
+    name:`${p.brand} ${p.name}`,
+    brand:{"@type":"Brand",name:p.brand},
+    description:p.description||undefined,
+    image:p.image_url||undefined,
+    url:process.env.NEXT_PUBLIC_SITE_URL?`${process.env.NEXT_PUBLIC_SITE_URL.replace(/\/$/,"")}/gear/${p.slug}`:undefined,
+    sku:p.slug,
+  };
 
   return <main className="shell page">
+    <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(structuredData)}}/>
     <Link className="back" href="/gear">← Back to gear</Link>
 
     <section style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(300px,1fr))',gap:32,alignItems:'center',marginBottom:30}}>
@@ -48,6 +60,8 @@ export default async function ProductPage({params}:{params:Promise<{slug:string}
         <ProductImage product={p} variant="hero"/>
       </div>
     </section>
+
+    <AffiliatePanel product={p}/>
 
     {paramsData.length>0&&<section className="section">
       <div className="sectionHead">
