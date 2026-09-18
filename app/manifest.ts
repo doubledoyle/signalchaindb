@@ -1,0 +1,1 @@
+import type {MetadataRoute} from "next";export default function manifest():MetadataRoute.Manifest{return {name:"SignalChainDB",short_name:"SignalChainDB",description:"Source-backed music gear compatibility and rig planning.",start_url:"/",display:"standalone",background_color:"#090b0d",theme_color:"#090b0d"}}

@@ -1,49 +1,75 @@
 # SignalChainDB Web
 
-Production-oriented Next.js starter for SignalChainDB.
+Launch-oriented Next.js application for a source-backed music gear compatibility database.
 
-## Included now
-- Next.js 16.3.3 App Router
-- 141-product v0.3 dataset bundled for immediate local development
-- homepage
-- searchable/filterable `/gear` catalog
-- statically generated `/gear/[slug]` product pages
-- `/compatibility` checker
-- early `/rig-builder`
-- source/confidence labels
-- product image metadata support (`image_url`, `image_source`, `image_credit`)
-- Supabase/Postgres migration starter
-- `.env.example` for the eventual Supabase connection
-- React 19.2.7 + Next.js 16.3.3 (Active LTS)
+## Launch-ready features
+- searchable gear database and product pages
+- compatibility checker
+- full Rig Builder with power/output analysis
+- browser autosave and shareable rig links
+- optional Supabase email/password accounts
+- cloud-saved rigs with row-level security
+- account, login, and password-reset pages
+- retailer/affiliate shopping panels on product pages
+- supporter checkout CTA via a hosted payment link
+- affiliate disclosure, privacy policy, terms, contact, and partner pages
+- sitemap, robots, manifest, structured Product data, and health endpoint
+- optional GA4 hook
+- PR/build verification workflow
 
-## Run locally
+## Local development
 ```bash
 npm install
 npm run dev
 ```
-Then open http://localhost:3000.
+Open http://localhost:3000.
 
-## Product images
-Product records can optionally include:
-- `image_url` — local `/public/...` path or hosted image URL
-- `image_source` — page where the image originated
-- `image_credit` — manufacturer/photographer/source credit
+## Production environment
+Copy `.env.example` and set the values that apply.
 
-The catalog renders a branded placeholder when no image has been added yet, so image coverage can be expanded gradually without breaking the UI.
+Required for public canonical URLs:
+- `NEXT_PUBLIC_SITE_URL`
 
-For production, prefer optimized WebP/AVIF files stored separately from the JSON dataset, with only image metadata kept in product records. Use images you have permission to publish and preserve source/credit information.
+Required only if account/cloud-save features are enabled:
+- `NEXT_PUBLIC_SUPABASE_URL`
+- `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`
 
-## Why local JSON first?
-It lets the site build and deploy immediately while the production Supabase project is being created. The UI is deliberately isolated from storage so `lib/data.ts` can later be swapped to server-side Supabase queries without rebuilding the product.
+Monetization:
+- `NEXT_PUBLIC_SUPPORTER_CHECKOUT_URL` — hosted checkout/payment link
+- `NEXT_PUBLIC_SUPPORTER_PRICE_LABEL` — display label, e.g. `$39 one-time`
+- `NEXT_PUBLIC_REVERB_AFFILIATE_TEMPLATE` — approved affiliate deep-link template
+- `NEXT_PUBLIC_SWEETWATER_AFFILIATE_TEMPLATE` — optional retailer/affiliate deep-link template
 
-## Production migration
-1. Create a Supabase project.
-2. Install `@supabase/ssr` and `@supabase/supabase-js`, following Supabase’s current Next.js SSR setup.
-3. Run `supabase/migrations/0001_core.sql`.
-4. Import the existing product/compatibility/source records.
-5. Add `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`.
-6. Replace local data loaders with server-side Supabase queries.
-7. Add auth, saved rigs, user reports, and affiliate/price tables.
+Affiliate templates may use `{url}` (encoded destination), `{raw_url}`, and `{query}`.
+
+Optional:
+- `NEXT_PUBLIC_CONTACT_EMAIL`
+- `NEXT_PUBLIC_GA_ID`
+
+## Supabase launch setup
+1. Create the project.
+2. Run `supabase/migrations/0001_core.sql`.
+3. Run `supabase/migrations/0002_users_and_saved_rigs.sql`.
+4. Add the project URL and publishable/anon key to the deployment environment.
+5. Set the Supabase Site URL to the production site and allow production redirects for `/account` and `/reset-password`.
+
+The catalog remains bundled, so accounts can be enabled without migrating the product catalog first.
+
+## Monetization launch setup
+### Affiliate revenue
+Reverb operates a website affiliate program through Awin. Apply, then use the approved tracked deep-link format in `NEXT_PUBLIC_REVERB_AFFILIATE_TEMPLATE`. Until a tracked template is configured, product pages use normal retailer search links and do not represent them as tracked referrals.
+
+### Supporter revenue
+Create a hosted payment link and put it in `NEXT_PUBLIC_SUPPORTER_CHECKOUT_URL`. Stripe Payment Links are one no-code option.
 
 ## Deployment
-Designed for Vercel or another Next.js host.
+Designed for Vercel or another Next.js 16 host.
+
+Before production traffic:
+1. set `NEXT_PUBLIC_SITE_URL`
+2. connect Supabase if accounts/cloud saves should be active
+3. add the supporter checkout link
+4. add approved affiliate tracking templates
+5. add a contact email
+6. deploy
+7. verify `/api/health`, `/sitemap.xml`, sign-up/sign-in, a cloud rig save, and an outbound retailer link
